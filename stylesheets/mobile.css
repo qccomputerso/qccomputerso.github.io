@@ -1,0 +1,23 @@
+@media only screen and (max-width: 650px) {
+	.data-prompt {
+		padding: 5px 10px;
+		font-size: 24px;
+	}
+	.arrow-img {
+		right: 10px;
+	}
+	.data-div {
+		margin: 0;
+	}
+	.data-content {
+		margin: 0 10px;
+	}
+	.imglarge, .imgsmall {
+		width: calc(100vw - 40px);
+	}
+	
+	#page-title {
+		font-size: 25px;
+		height: 25px;
+	}
+}

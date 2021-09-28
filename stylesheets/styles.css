@@ -1,0 +1,135 @@
+:root {
+	--bg: #1f2a33;
+	--bg2: #172025;
+	--bg3: #aabbdd;
+	--c: #fff;
+	--c2: #d0dde5;
+	--c-trans: #fff8;
+}
+
+html {
+	background-color: var(--bg);
+	color: var(--c);
+}
+a {
+	color: var(--c2);
+}
+body, html {
+	margin: 0;
+	padding: 0;
+}
+* {
+	font-family: Unicod, sans-serif;
+	user-select: none;
+}
+
+.txtlarge {
+	font-size: 20px;
+}
+
+.invert, .data-prompt {
+	background-color: var(--c-trans);
+	color: var(--bg);
+}
+
+.header {
+	background-color: var(--bg2);
+	border-bottom: 3px solid var(--c);
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+}
+
+.arrow {
+	transition: transform 0.5s ease-in-out;
+	vertical-align: middle;
+	margin-left: 7px;
+}
+
+.tab-button {
+	font-size: 25px;
+	vertical-align: middle;
+	color: var(--c2);
+}
+.tabbutton-whole {
+	padding: 12px 15px;
+	display: inline-block;
+	transition: background-color 0.5s ease-in-out;
+}
+.tabbutton-whole:hover {
+	background-color: var(--c-trans);
+}
+
+.data-prompt {
+	border: 5px solid var(--c);
+	border-width: 5px 0;
+	padding: 5px 50px;
+	text-align: left;
+	font-size: 30px;
+	cursor: pointer;
+	position: relative;
+	z-index: 0;
+	margin-bottom: 1px;
+}
+.data-prompt.active {
+	background-color: var(--bg3);
+}
+.data-div {
+	margin: 0 50px;
+}
+.data-content {
+	text-align: left;
+	margin: 0 200px 0 10px;
+}
+
+.arrow-img {
+	position: absolute;
+	right: 50px;
+	top: 50%;
+}
+
+.imglarge {
+	width: 600px;
+}
+.imgsmall {
+	width: 400px;
+}
+
+#page-title {
+	margin: 0;
+	font-size: 40px;
+	height: 50px;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: 200;
+	animation: topAnim 10s infinite ease-in-out;
+}
+#tab-button-container {
+	margin: 0;
+	padding: 0 0;
+	width: 100%;
+	text-align: left;
+}
+#top-banner {
+	width: calc(100% - 40px);
+	padding: 20px;
+	height: 50px;
+	position: relative;
+}
+
+
+@font-face {
+    font-family: 'Unicod';
+    src: url('../UNicod Sans.woff') format('woff');
+}
+
+@keyframes topAnim {
+	0% {text-shadow: -2px -2px 7px var(--bg3);}
+	25% {text-shadow: -2px 2px 7px var(--bg3);}
+	50% {text-shadow: 2px 2px 7px var(--bg3);}
+	75% {text-shadow: 2px -2px 7px var(--bg3);}
+	100% {text-shadow: -2px -2px 7px var(--bg3);}
+}
