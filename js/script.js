@@ -1,4 +1,61 @@
-let app;
+let app, tabData = {
+	opened: "",
+	tabButtons: [
+		{
+			buttonText: 'Generic tab 1',
+			choices: [{
+				text: 'Trolling',
+				onClick: function() {window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", '_blank').focus();},
+			}, {
+				text: 'More Trolling',
+				onClick: function() {alert('...')},
+			}]
+		},
+		{
+			buttonText: 'Generic tab 2',
+			choices: [{
+				text: 'Loss',
+				onClick: function() {window.open("https://en.wikipedia.org/wiki/Loss_(comic)", '_blank').focus();},
+			}, {
+				text: 'Loss',
+				onClick: function() {window.open("https://en.wikipedia.org/wiki/Loss_(comic)", '_blank').focus();},
+			}, {
+				text: 'Loss 2',
+				onClick: function() {alert(':.|:;')},
+			}]
+		},
+		{
+			buttonText: 'Generic tab 3',
+			choices: [{
+				text: 'Test',
+				onClick: function() {alert('null')},
+			}, {
+				text: '.',
+				onClick: function() {alert('.')},
+			}]
+		},
+		{
+			buttonText: 'Generic tab 99',
+			choices: [{
+				text: 'Home',
+				onClick: function() {alert('There\'s nothing here')},
+			}, {
+				text: ',',
+				onClick: function() {alert(',')},
+			}]
+		},
+		{
+			buttonText: 'Generic tab NaN',
+			choices: [{
+				text: '...',
+				onClick: function() {alert('[object Object]')},
+			}, {
+				text: ',,,',
+				onClick: function() {alert('undefined')},
+			}]
+		}
+	]
+};
 
 function load() {
 	Vue.component('content-div', {
@@ -35,18 +92,44 @@ function load() {
 	Vue.component('tab-button', {
 		props: ["data"],
 		data() { return {
-			open: false
+			tabData
 		}},
-		template: `<span>
-			<span @click="open = !open" class="tabbutton-whole">
+		methods: {
+			toggleTab() {
+				if (this.open) 
+					tabData.opened = "";
+				else 
+					tabData.opened = this.data.buttonText;
+			}
+		},
+		computed: {
+			open() {
+				return tabData.opened == this.data.buttonText
+			},
+			style() {
+				return {
+					visibility: this.open ? "visible" : "hidden",
+					opacity: this.open ? 1 : 0,
+					"z-index": this.open ? 1 : 0
+				}
+			}
+		},
+		template: `<div class="tab-choice">
+			<span @click="toggleTab()" class="tabbutton-whole">
 				<span class="tab-button">{{data.buttonText}}</span>
 				<arrow :open="open"></arrow>
 			</span>
-		</span>`
+			<div class="tab-dropdown" :style="style">
+				<div v-for="t in data.choices || []" @click="t.onClick()">
+					{{t.text}}
+				</div>
+			</div>
+		</div>`
 	})
 	app = new Vue({
 		el: '#app',
 		data: {
+			tabData
 		}
 	})
 }

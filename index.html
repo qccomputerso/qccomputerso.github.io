@@ -17,21 +17,7 @@
 				<h1 id="page-title">QC Society of Computer Studies</h1>
 			</div>
 			<div id="tab-button-container">
-				<tab-button :data="{
-					buttonText: 'Generic tab 1'
-				}"></tab-button>
-				<tab-button :data="{
-					buttonText: 'Generic tab 2'
-				}"></tab-button>
-				<tab-button :data="{
-					buttonText: 'Generic tab 3'
-				}"></tab-button>
-				<tab-button :data="{
-					buttonText: 'Generic tab 99'
-				}"></tab-button>
-				<tab-button :data="{
-					buttonText: 'Generic tab NaN'
-				}"></tab-button>
+				<tab-button v-for="btn in tabData.tabButtons" :data="btn"></tab-button>
 			</div>
 		</div>
 		<div style="height: 110px"></div>

@@ -4,7 +4,7 @@
 	--bg3: #aabbdd;
 	--c: #fff;
 	--c2: #d0dde5;
-	--c-trans: #fff8;
+	--c-trans: #fff6;
 }
 
 html {
@@ -55,9 +55,32 @@ body, html {
 	padding: 12px 15px;
 	display: inline-block;
 	transition: background-color 0.5s ease-in-out;
+	cursor: pointer;
 }
 .tabbutton-whole:hover {
 	background-color: var(--c-trans);
+}
+
+.tab-choice {
+	display: inline-block;
+	position: relative;
+}
+.tab-dropdown {
+	position: absolute;
+	top: calc(100% + 2px);
+	border: 2px solid;
+	border-bottom: 0;
+	transition: all 0.5s ease-in-out, z-index 0s;
+	width: 250px;
+}
+.tab-dropdown > div {
+	width: calc(100% - 10px);
+	border-bottom: 2px solid;
+	background-color: var(--bg2);
+	font-size: 20px;
+	cursor: pointer;
+	text-align: center;
+	padding: 5px;
 }
 
 .data-prompt {
