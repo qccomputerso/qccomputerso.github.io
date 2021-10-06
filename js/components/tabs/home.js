@@ -14,15 +14,21 @@ System.tabs.home = {
 		<span class="heading2">Committee List</span>
 		<hr>
 		Chairman:<br>
-		Chan Chi Him<br><br>
+		<member name="Chan Chi Him" info="5C(01)"></member><br>
 		Vice Chairman:<br>
-		Yip Cheuk Lam<br>
-		Chen Kyle<br><br>
+		<member name="Yip Cheuk Lam" info="5C(34)"></member>
+		<member name="Chen Kyle" info="4A(06)"></member><br>
 		Committee:<br>
-		Wu Zi Qi<br>
-		Fu Sze Ho<br>
-		Li Yue Wang<br>
-		Lam Ching Yiu<br>
-		Fung Yik Hei
+		<member name="Wu Zi Qi" info="3A(30)"></member>
+		<member name="Fu Sze Ho" info="3C(10)"></member>
+		<member name="Li Yue Wang" info="4B(19)"></member>
+		<member name="Lam Ching Yiu" info="5A(10))"></member>
+		<member name="Fung Yik Hei" info="4C(07)"></member>
+	</div>`
+}
+System.components.member = {
+	props: ["name", "info"],
+	template: `<div>
+		<span class="list-leftmost">{{name}}</span>{{info}}
 	</div>`
 }
