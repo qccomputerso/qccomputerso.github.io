@@ -1,19 +1,43 @@
 @media only screen and (max-width: 650px) {
-	.data-prompt {
-		padding: 5px 10px;
+	.heading {
 		font-size: 24px;
 	}
-	.arrow-img {
-		right: 10px;
+	.heading2 {
+		font-size: 21px;
 	}
-	.data-div {
-		margin: 0;
+
+	.tab {
+		padding: 10px 40px;
 	}
-	.data-content {
-		margin: 0 10px;
+
+	.tab-button {
+		font-size: 20px;
+		vertical-align: middle;
+		color: var(--c2);
 	}
+	.tabbutton-whole {
+		padding: 7px 14px;
+	}
+
+	.tab-dropdown {
+		width: 120px;
+	}
+	.tab-dropdown > div {
+		width: calc(100% - 10px);
+		border-bottom: 2px solid;
+		background-color: var(--bg2);
+		font-size: 16px;
+		cursor: pointer;
+		text-align: center;
+		padding: 5px;
+	}
+
 	.imglarge, .imgsmall {
 		width: calc(100vw - 40px);
+	}
+
+	.logo {
+		width: 100px;
 	}
 	
 	#page-title {
