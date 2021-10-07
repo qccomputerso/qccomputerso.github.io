@@ -23,7 +23,6 @@ body, html {
 }
 * {
 	font-family: Unicod, sans-serif;
-	user-select: none;
 }
 
 hr {
