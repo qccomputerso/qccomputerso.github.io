@@ -1,4 +1,4 @@
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 700px) {
 	.heading {
 		font-size: 24px;
 	}
@@ -20,16 +20,7 @@
 	}
 
 	.tab-dropdown {
-		width: 120px;
-	}
-	.tab-dropdown > div {
-		width: calc(100% - 10px);
-		border-bottom: 2px solid;
-		background-color: var(--bg2);
-		font-size: 16px;
-		cursor: pointer;
-		text-align: center;
-		padding: 5px;
+		width: 170px;
 	}
 
 	.imglarge, .imgsmall {

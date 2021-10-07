@@ -14,6 +14,15 @@ const tabData = {
 					tabTo("events")
 				},
 			}]
+		},
+		{
+			buttonText: 'Contact Us',
+			choices: [{
+				text: 'Contact Info',
+				onClick() {
+					tabTo("contacts");
+				},
+			}]
 		}
 	],
 	tab: "Home"

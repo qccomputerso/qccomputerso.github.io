@@ -8,6 +8,7 @@
 	<script src="js/components/vue_app.js"></script>
 	<script src="js/components/tabs/home.js"></script>
 	<script src="js/components/tabs/events.js"></script>
+	<script src="js/components/tabs/contact.js"></script>
 	<link rel="stylesheet" type="text/css" href="stylesheets/styles.css"/>
 	<link rel="stylesheet" type="text/css" href="stylesheets/mobile.css"/>
 
@@ -16,16 +17,8 @@
 </head>
 <body onload="load()">
 	<div id="app" style="height: 100%; text-align: center;">
-		<div class="header">
-			<div id="top-banner">
-				<h1 id="page-title">QC Society of Computer Studies</h1>
-			</div>
-			<div id="tab-button-container">
-				<div>
-					<tab-button v-for="btn in tabData.tabButtons" :data="btn"></tab-button>
-				</div>
-			</div>
-		</div>
+		<overlay-head style="position: fixed; z-index: 2;"></overlay-head>
+		<overlay-head style="visibility: hidden;"></overlay-head>
 		<div class="tab invert">
 			<component :is="tabData.tab + '-tab'" v-if="System.tabs[tabData.tab]"></component>
 			<home-tab v-else></home-tab>

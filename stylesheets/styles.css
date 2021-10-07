@@ -2,6 +2,8 @@
 	--bg: #1f2a33;
 	--bg2: #172025;
 	--bg3: #344050;
+	--bg4: #aabbdd;
+	--bg-trans: #172025cc;
 	--c: #fff;
 	--c2: #d0dde5;
 	--c-trans: #fff6;
@@ -43,7 +45,7 @@ a.invert {
 }
 
 .header {
-	background-color: var(--bg2);
+	background-color: var(--bg-trans);
 	border-bottom: 3px solid var(--c);
 	/*position: fixed;
 	z-index: 2;*/
@@ -128,14 +130,19 @@ a.invert {
 	box-shadow: inset 0 0 1px 1px var(--c), 0 0 5px 1px var(--c);
 }
 
+.clickable {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
 .list-leftmost {
-	width: 200px;
+	width: 150px;
 	display: inline-block;
 }
 
 #page-title {
 	margin: 0;
-	font-size: 40px;
+	font-size: 35px;
 	height: 50px;
 	position: absolute;
 	width: 100%;
@@ -188,9 +195,9 @@ a.invert {
 }
 
 @keyframes topAnim {
-	0% {text-shadow: -2px -2px 7px var(--bg3);}
-	25% {text-shadow: -2px 2px 7px var(--bg3);}
-	50% {text-shadow: 2px 2px 7px var(--bg3);}
-	75% {text-shadow: 2px -2px 7px var(--bg3);}
-	100% {text-shadow: -2px -2px 7px var(--bg3);}
+	0% {text-shadow: -2px -2px 7px var(--bg4);}
+	25% {text-shadow: -2px 2px 7px var(--bg4);}
+	50% {text-shadow: 2px 2px 7px var(--bg4);}
+	75% {text-shadow: 2px -2px 7px var(--bg4);}
+	100% {text-shadow: -2px -2px 7px var(--bg4);}
 }

@@ -31,7 +31,7 @@ System.components["tab-button"] = {
 		},
 		style() {
 			return {
-				visibility: this.open ? "visible" : "hidden",
+				visibility: this.open ? "inherit" : "hidden",
 				opacity: this.open ? 1 : 0,
 				"z-index": this.open ? 1 : 0
 			}
@@ -50,27 +50,18 @@ System.components["tab-button"] = {
 	</div>`
 }
 
-
-// Artifact from old code, please ignore
-/*Vue.component('content-div', {
-	props: ["game"],
+System.components["overlay-head"] = {
 	data() { return {
-		show: false
+		tabData
 	}},
-	template: `<div class="gamedata-div">
-		<div :class="{'game-prompt': true, active: show}" @click="show = !show;">
-			{{game.title}} &nbsp;<img src="images/arrow.png" width="25" class="arrow-img" :style="{
-				transform: 'rotate(' + (show ? 0 : 180) + 'deg) translateY(' + (show ? '-' : '') + '50%)',
-			}"/>
+	template: `<div class="header">
+		<div id="top-banner">
+			<h1 id="page-title">Queen's College Society of Computer Studies</h1>
 		</div>
-		<div class="gamedata-content" v-if="show">
-			<br>
-			<span class="txtlarge">Links:</span>
-			<span v-for="(link, name) in game.links" class="txtlarge"><br>
-				{{name}}: <a :href="link" target="newtab">{{link}}</a>
-			</span>
-			<br><br>
-			<span v-html="game.desc" style="color: var(--c2)"></span>
+		<div id="tab-button-container">
+			<div>
+				<tab-button v-for="btn in tabData.tabButtons" :data="btn"></tab-button>
+			</div>
 		</div>
 	</div>`
-})*/
+}
