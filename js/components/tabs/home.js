@@ -22,7 +22,7 @@ System.tabs.home = {
 		<member name="Wu Zi Qi" info="3A(30)"></member>
 		<member name="Fu Sze Ho" info="3C(10)"></member>
 		<member name="Li Yue Wang" info="4B(19)"></member>
-		<member name="Lam Ching Yiu" info="5A(10))"></member>
+		<member name="Lam Ching Yiu" info="5A(10)"></member>
 		<member name="Fung Yik Hei" info="4C(07)"></member>
 	</div>`
 }
