@@ -25,6 +25,7 @@ System.tabs.contacts = {
 		</u>
 		<span v-if="copyTimeoutIds.email >= 0">(Copied)</span><br>
 
+		<span class="heading2">Public</span><hr>
 		<a href="https://www.instagram.com/qc_socs/" target="newtab" class="invert">
 			<info name="Instagram:" info="@qc_socs"></info>
 		</a>
