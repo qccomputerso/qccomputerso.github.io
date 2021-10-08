@@ -56,7 +56,7 @@ System.components["overlay-head"] = {
 	}},
 	template: `<div class="header">
 		<div id="top-banner">
-			<h1 id="page-title">Queen's College Society of Computer Studies</h1>
+			<img class="logo small" src="assets/socs-logo.png"/>
 		</div>
 		<div id="tab-button-container">
 			<div>

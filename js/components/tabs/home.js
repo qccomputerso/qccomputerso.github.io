@@ -1,6 +1,5 @@
 System.tabs.home = {
 	template: `<div class="tab-content">
-		<img class="logo" src="assets/socs-logo.png"/>
 		<span class="heading">Welcome to our home page!</span><br>
 		<span class="heading2">About</span>
 		<hr>

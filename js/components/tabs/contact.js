@@ -13,7 +13,6 @@ System.tabs.contacts = {
 		}
 	},
 	template: `<div class="tab-content">
-		<img class="logo" src="assets/socs-logo.png"/>
 		<span class="heading">Contacts</span><br>
 		<span class="heading2">Private</span><hr>
 		<u @click="copy('+852 5129 3147', 'phone')" class="clickable">

@@ -8,10 +8,20 @@ const tabData = {
 				onClick() {
 					tabTo("home");
 				},
-			}, {
-				text: 'Events',
+			}]
+		},
+		{
+			buttonText: 'Events',
+			choices: [{
+				text: 'Event List',
 				onClick() {
 					tabTo("events")
+				},
+			},
+			{
+				text: 'O Day',
+				onClick() {
+					tabTo("events-oday")
 				},
 			}]
 		},
