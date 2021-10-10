@@ -3,12 +3,7 @@ const tabData = {
 	tabButtons: [
 		{
 			buttonText: 'Home',
-			choices: [{
-				text: 'Home',
-				onClick() {
-					tabTo("home");
-				},
-			}]
+			choices() {tabTo("home")} 
 		},
 		{
 			buttonText: 'Events',
