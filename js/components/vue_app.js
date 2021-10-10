@@ -19,6 +19,10 @@ System.components["tab-button"] = {
 	}},
 	methods: {
 		toggleTab() {
+            if (typeof this.data.choices == 'function') {
+                this.data.choices();
+                return;
+            }
 			if (this.open) 
 				tabData.opened = "";
 			else 
@@ -42,7 +46,7 @@ System.components["tab-button"] = {
 			<span class="tab-button">{{data.buttonText}}</span>
 			<arrow :open="open"></arrow>
 		</span>
-		<div class="tab-dropdown" :style="style">
+		<div class="tab-dropdown" :style="style" v-if="typeof data.choices == 'object'">
 			<div v-for="t in data.choices || []" @click="t.onClick(); tabData.opened = '';">
 				{{t.text}}
 			</div>
