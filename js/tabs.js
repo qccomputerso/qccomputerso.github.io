@@ -3,7 +3,9 @@ const tabData = {
 	tabButtons: [
 		{
 			buttonText: 'Home',
-			choices() {tabTo("home")} 
+			choices() {
+				tabTo("home");
+			} 
 		},
 		{
 			buttonText: 'Events',
@@ -26,6 +28,11 @@ const tabData = {
 				text: 'Contact Info',
 				onClick() {
 					tabTo("contacts");
+				},
+			}, 
+				text: 'Instagram',
+				onClick() {
+					openWindow("https://www.instagram.com/qc_socs/");
 				},
 			}]
 		}
