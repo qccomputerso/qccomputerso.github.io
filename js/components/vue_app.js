@@ -19,10 +19,10 @@ System.components["tab-button"] = {
 	}},
 	methods: {
 		toggleTab() {
-            if (typeof this.data.choices == 'function') {
-                this.data.choices();
-                return;
-            }
+			if (typeof this.data.choices == 'function') {
+				this.data.choices();
+				return;
+			}
 			if (this.open) 
 				tabData.opened = "";
 			else 
