@@ -29,7 +29,7 @@ const tabData = {
 				onClick() {
 					tabTo("contacts");
 				},
-			}, 
+			}, {
 				text: 'Instagram',
 				onClick() {
 					openWindow("https://www.instagram.com/qc_socs/");
