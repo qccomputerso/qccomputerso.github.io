@@ -1,11 +1,19 @@
 const tabData = {
 	opened: "",
+	mobileDisplayOpen: false,
 	tabButtons: [
 		{
 			buttonText: 'Home',
 			choices() {
 				tabTo("home");
-			} 
+			},
+			svg: {
+				data: `<polygon points="10,1 20,10 20,20 0,20 0,10"
+				style="stroke: var(--c2); stroke-width: 2; fill: var(--c2)">
+				</polygon>`,
+				width: 20,
+				height: 25
+			}
 		},
 		{
 			buttonText: 'Events',

@@ -11,6 +11,14 @@ System.components.arrow = {
 	</svg>`
 }
 
+// General SVG display
+System.components["svg-custom"] = {
+	props: ["svgData"],
+	template: `<svg :width="svgData.width" :height="svgData.height || svgData.width" class="svg-custom"
+	v-html="svgData.data" v-if="svgData">
+	</svg>`
+}
+
 // Tab buttons on top
 System.components["tab-button"] = {
 	props: ["data"],
@@ -43,8 +51,9 @@ System.components["tab-button"] = {
 	},
 	template: `<div class="tab-choice">
 		<span @click="toggleTab()" class="tabbutton-whole">
+			<svg-custom :svgData="data.svg"></svg-custom>
 			<span class="tab-button">{{data.buttonText}}</span>
-			<arrow :open="open"></arrow>
+			<arrow :open="open" v-if="!data.svg"></arrow>
 		</span>
 		<div class="tab-dropdown" :style="style" v-if="typeof data.choices == 'object'">
 			<div v-for="t in data.choices || []" @click="t.onClick(); tabData.opened = '';">
