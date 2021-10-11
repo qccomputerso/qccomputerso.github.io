@@ -11,6 +11,9 @@ System.tabs.events = {
 	</div>`
 }
 System.tabs["events-oday"] = {
+	methods: {
+		tabTo
+	},
 	template: `<div class="tab-content">
 		<span class="heading">Orientation Day</span>
 		<br>
@@ -25,5 +28,7 @@ System.tabs["events-oday"] = {
 		From machine learning to securing online payments, randomness is a very important and thoroughly studied topic in Computer Science.
 		<br><br>
 		The SoCS is holding the O’Day on 15/10 (Fri). There will be a talk about randomness, a quiz with prizes, and some short videos about different aspects of computer science.
+		<br><br>
+		<u class="clickable" @click="tabTo('events')">Back</u>
 	</div>`
 }

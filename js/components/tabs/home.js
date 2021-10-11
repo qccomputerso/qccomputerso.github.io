@@ -1,4 +1,7 @@
 System.tabs.home = {
+	methods: {
+		tabTo
+	},
 	template: `<div class="tab-content">
 		<span class="heading">Welcome to our home page!</span><br>
 		<span class="heading2">About</span>
@@ -9,6 +12,8 @@ System.tabs.home = {
 		We conduct <u>programming courses</u>, as well as training for the
 		<a class="invert" href="https://hkoi.org/en/" target="newtab">HKOI</a> (Hong Kong Olympiad in Informatics)
 		to achieve our aims.
+		<br><br>
+		<u class="clickable" @click="tabTo('events')">Get notified about upcoming events!</u>
 		<br><br>
 		<span class="heading2">Officials List</span>
 		<hr>
@@ -23,6 +28,8 @@ System.tabs.home = {
 		<info name="Li Yue Wang" info="4B(19)"></info>
 		<info name="Lam Ching Yiu" info="5A(10)"></info>
 		<info name="Fung Yik Hei" info="4C(07)"></info>
+		<br>
+		<u class="clickable" @click="tabTo('contacts')">Contact us</u>
 	</div>`
 }
 System.components.info = {
