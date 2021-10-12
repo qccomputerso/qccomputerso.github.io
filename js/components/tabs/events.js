@@ -29,6 +29,7 @@ System.tabs["events-oday"] = {
 		<br><br>
 		The SoCS is holding the O’Day on 15/10 (Fri). There will be a talk about randomness, a quiz with prizes, and some short videos about different aspects of computer science.
 		<br><br>
-		<u class="clickable" @click="tabTo('events')">Back</u>
+		<div class="button" @click="tabTo('events')">&lt;&lt; Back</div>
 	</div>`
+	// &lt; is the "<" sign.
 }

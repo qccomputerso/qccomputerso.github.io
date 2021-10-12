@@ -13,23 +13,26 @@ System.tabs.home = {
 		<a class="invert" href="https://hkoi.org/en/" target="newtab">HKOI</a> (Hong Kong Olympiad in Informatics)
 		to achieve our aims.
 		<br><br>
-		<u class="clickable" @click="tabTo('events')">Get notified about upcoming events!</u>
+		<div class="button" @click="tabTo('events')">Upcoming Events >></div>
 		<br><br>
 		<span class="heading2">Officials List</span>
 		<hr>
 		Chairman:<br>
+
 		<info name="Chan Chi Him" info="5C(01)"></info><br>
 		Vice Chairman:<br>
+
 		<info name="Yip Cheuk Lam" info="5C(34)"></info>
 		<info name="Chen Kyle" info="4A(06)"></info><br>
 		Committee:<br>
+
 		<info name="Wu Zi Qi" info="3A(30)"></info>
 		<info name="Fu Sze Ho" info="3C(10)"></info>
 		<info name="Li Yue Wang" info="4B(19)"></info>
 		<info name="Lam Ching Yiu" info="5A(10)"></info>
 		<info name="Fung Yik Hei" info="4C(07)"></info>
 		<br>
-		<u class="clickable" @click="tabTo('contacts')">Contact us</u>
+		<div class="button" @click="tabTo('contacts')">Contact Us >></div>
 	</div>`
 }
 System.components.info = {

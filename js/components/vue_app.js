@@ -67,7 +67,7 @@ System.components["overlay-head"] = {
 	data() { return {
 		tabData
 	}},
-	template: `<div class="header">
+	template: `<div class="header" id="overlay-head">
 		<div id="top-banner">
 			<img class="logo small" src="assets/socs-logo.png"/>
 		</div>

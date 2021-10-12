@@ -53,11 +53,26 @@ a.invert {
 	margin: 0 !important;
 }
 
+.button {
+	cursor: pointer;
+	background-color: var(--bg3);
+	color: var(--c2);
+	font-size: 1.2rem;
+	border-radius: 3px;
+	padding: 8px;
+	display: inline-block;
+
+	transition: 0.5s;
+	transition-property: background-color, color;
+}
+.button:hover {
+	background-color: var(--bg4);
+	color: var(--bg1);
+}
+
 .header {
-	background-color: var(--bg-trans);
+	background-color: var(--bg2);
 	border-bottom: 3px solid var(--c);
-	/*position: fixed;
-	z-index: 2;*/
 	width: 100%;
 }
 .heading {
@@ -169,12 +184,20 @@ a.invert {
 	padding: 0 0;
 	width: 100%;
 	text-align: left;
+	top: 0;
 }
 
 #top-banner {
 	width: 100%;
 	padding-top: 20px;
 	position: relative;
+	height: 110px;
+}
+
+#overlay-head {
+	position: sticky;
+	top: -130px;
+	z-index: 1;
 }
 
 /* Custom Scrollbar */

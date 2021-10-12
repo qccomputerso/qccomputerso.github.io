@@ -1,3 +1,8 @@
+System.components["mobile-logo"] = {
+	template: `<img class="logo small mobile" id="mobile-logo" src="assets/socs-logo.png"/>`
+}
+
+
 System.components["mobile-tabs"] = {
 	template: `<div id="mobile-tab-displays">
 		<mobile-tab-icon-top></mobile-tab-icon-top>
@@ -58,7 +63,7 @@ System.components["mobile-tab-button"] = {
 		</div>
 		<div class="mobile-tab-button-container" v-if="typeof data.choices == 'object'">
 			<div v-for="t in data.choices || []" @click="t.onClick(); tabData.mobileDisplayOpen = false;" class="mobile-tab-button-sub">
-				&nbsp;&nbsp;&nbsp;&nbsp;{{t.text}}
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{t.text}}
 			</div>
 		</div>
 	</div>`
