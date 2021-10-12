@@ -19,7 +19,8 @@ System.components["mobile-tab-backdrop"] = {
 	data() { return {
 		tabData
 	}},
-	template: `<div id="mobile-tab-backdrop" :class="{opened: tabData.mobileDisplayOpen}">
+	template: `<div id="mobile-tab-backdrop" :class="{opened: tabData.mobileDisplayOpen}"
+	@click="tabData.mobileDisplayOpen = !tabData.mobileDisplayOpen">
 	</div>`
 }
 System.components["mobile-tab-selection"] = {
