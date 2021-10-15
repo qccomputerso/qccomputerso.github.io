@@ -4,13 +4,21 @@ System.tabs.home = {
 	},
 	template: `<div class="tab-content">
 		<span class="heading">Welcome to our home page!</span><br>
+		<div class="important">
+			<span class="heading flashing" style="margin-top: 0;">
+				IMPORTANT- We are now recruiting subcommittees!
+			</span><br>
+			<a href="https://forms.gle/8Eitgikw4Cvhc91F6" target="_blank">
+				Fill in the subcommittee recruitment form here
+			</a>
+		</div>
 		<span class="heading2">About</span>
 		<hr>
 		Our goal as the Society of Computer Studies is to provide insight about programming and Computer Science
 		to our schoolmates, and to help them gain a better understanding of the topics, as well as an understanding
 		of the impact of rapid development of IT on our society.<br>
 		We conduct <u>programming courses</u>, as well as training for the
-		<a class="invert" href="https://hkoi.org/en/" target="newtab">HKOI</a> (Hong Kong Olympiad in Informatics)
+		<a class="invert" href="https://hkoi.org/en/" target="_blank">HKOI</a> (Hong Kong Olympiad in Informatics)
 		to achieve our aims.
 		<br><br>
 		<div class="button" @click="tabTo('events')">Upcoming Events >></div>

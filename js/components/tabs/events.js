@@ -19,7 +19,7 @@ System.tabs["events-oday"] = {
 		<br>
 		<span class="heading2">Time: 15/10 (Fri) 16:00 - 17:00<br>
 		Venue: Google meet<br>
-		<a class="invert" href="https://meet.google.com/vec-ryhf-ztc" target="newtab">Meet Link</a>
+		<a class="invert" href="https://meet.google.com/vec-ryhf-ztc" target="_blank">Meet Link</a>
 		(Please join with personal account)</span>
 		<hr>
 		Do you know about randomness?

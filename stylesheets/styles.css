@@ -43,6 +43,13 @@ a.invert {
 	background-color: #0000;
 }
 
+.important {
+	border: 3px solid;
+	color: var(--c);
+	background: var(--bg);
+	padding: 20px;
+}
+
 .nounderline {
 	text-decoration: none !important;
 }
@@ -84,6 +91,10 @@ a.invert {
 	font-size: 27px;
 	display: inline-block;
 	margin: 0.35em 0 0.15em 0;
+}
+
+.flashing {
+	animation: flashing 3s infinite;
 }
 
 .arrow {
@@ -234,4 +245,10 @@ a.invert {
 	50% {text-shadow: 2px 2px 7px var(--bg4);}
 	75% {text-shadow: 2px -2px 7px var(--bg4);}
 	100% {text-shadow: -2px -2px 7px var(--bg4);}
+}
+
+@keyframes flashing {
+	0% {color: var(--bg)}
+	50% {color: var(--c)}
+	100% {color: var(--bg)}
 }
