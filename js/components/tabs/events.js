@@ -5,8 +5,14 @@ System.tabs.events = {
 	template: `<div class="tab-content">
 		<span class="heading">Upcoming Events</span>
 		<hr>
+		<span>Currently none, follow our 
+		<a href="https://www.instagram.com/qc_socs/" target="_blank" class="invert">Instagram Page</a>
+		to get notified about the latest events!</span>
+		<br><br>
+		<span class="heading">Completed Events</span>
+		<hr>
 		<span class="heading2">15/10 (Fri)<br>
-			<u class="clickable" @click="tabTo('events-oday')">Orientation Day</u>
+			<div class="button" @click="tabTo('events-oday')">Orientation Day &gt;&gt;</div>
 		</span>
 	</div>`
 }
