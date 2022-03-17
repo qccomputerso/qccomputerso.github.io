@@ -1,0 +1,156 @@
+:root {
+	--bg: #1f2a33;
+	--bg2: #172025;
+	--bg3: #344050;
+	--bg4: #aabbdd;
+	--bg-trans: #172025cc;
+	--c: #fff;
+	--c2: #d0dde5;
+	--c-trans: #fff6;
+}
+
+html {
+	background-color: var(--bg);
+	color: var(--c);
+}
+a {
+	color: var(--c2);
+	display: block;
+	width: 80%;
+	margin-top: 20px;
+	text-decoration: none;
+	border-bottom: 2px dotted;
+	font-size: 18px;
+	text-align: left;
+}
+body, html {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+* {
+	font-family: Unicod, sans-serif;
+}
+
+hr {
+	height: 2px;
+	background-color: var(--c);
+	border: none;
+}
+
+.txtlarge {
+	font-size: 20px;
+}
+
+.invert {
+	background-color: var(--c-trans);
+	color: var(--bg);
+}
+
+.invert a {
+	background-color: #0000;
+	color: var(--bg);
+}
+
+.important {
+	border: 3px solid;
+	color: var(--c);
+	background: var(--bg);
+	padding: 20px;
+}
+
+.nounderline {
+	text-decoration: none !important;
+}
+
+.button {
+	cursor: pointer;
+	background-color: var(--bg3);
+	color: var(--c2);
+	font-size: 1.2rem;
+	border-radius: 3px;
+	padding: 8px;
+	display: inline-block;
+
+	transition: 0.5s;
+	transition-property: background-color, color;
+}
+.button:hover {
+	background-color: var(--bg4);
+	color: var(--bg1);
+}
+
+.header {
+	background-color: var(--bg2);
+	border-bottom: 3px solid var(--c);
+	width: 100%;
+}
+.heading {
+	font-size: 35px;
+	display: inline-block;
+	margin: 0.5em 0;
+}
+.heading2 {
+	font-size: 27px;
+	display: inline-block;
+	margin: 0.35em 0 0.15em 0;
+}
+
+.tab {
+	margin: 10px;
+	padding: 20px 8%;
+}
+
+.tab-content {
+	text-align: left;
+	width: 100%;
+}
+
+.clickable {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#page-title {
+	margin: 0;
+	font-size: 40px;
+	color: var(--c);
+	font-weight: 200;
+	animation: topAnim 10s infinite ease-in-out;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: var(--bg3);
+	border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--c2); 
+	border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #fffa; 
+}
+
+@font-face {
+    font-family: 'Unicod';
+    src: url('../../UNicod Sans.woff') format('woff');
+}
+
+@keyframes topAnim {
+	0% {text-shadow: -2px -2px 7px var(--bg4);}
+	25% {text-shadow: -2px 2px 7px var(--bg4);}
+	50% {text-shadow: 2px 2px 7px var(--bg4);}
+	75% {text-shadow: 2px -2px 7px var(--bg4);}
+	100% {text-shadow: -2px -2px 7px var(--bg4);}
+}
