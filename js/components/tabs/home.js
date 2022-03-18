@@ -13,7 +13,7 @@ System.tabs.home = {
 		<a class="invert" href="https://hkoi.org/en/" target="_blank">HKOI</a> (Hong Kong Olympiad in Informatics)
 		to achieve our aims.
 		<br>
-		Programming course materials can be found <a class="invert" href="/programming-course-materials">here</a>
+		Programming course materials can be found <a class="invert" href="/program-course">here</a>
 		<br><br>
 		<div class="button" @click="tabTo('events')">Upcoming Events >></div>
 		<br><br>
