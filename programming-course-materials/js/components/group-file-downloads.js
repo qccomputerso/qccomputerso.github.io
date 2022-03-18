@@ -5,7 +5,7 @@ System.components["group-file-downloads"] = {
 			required: true
 		}
 	},
-	template: `<div class="tab-content">
+	template: `<div>
 		<span class="heading2">{{ fileGroup.groupName }}</span>
 		<hr>
 		<single-file-download

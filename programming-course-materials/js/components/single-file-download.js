@@ -6,7 +6,7 @@ System.components["single-file-download"] = {
 		}
 	},
 	template: `<a
-		class="inverted"
+		class="download-link"
 		:href="'materials/' + file.path"
 		:download="file.downloadName"
 	>{{ file.title }}</a>`
