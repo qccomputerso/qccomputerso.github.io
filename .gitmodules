@@ -1,4 +1,0 @@
-[submodule "program-course"]
-	path = program-course
-	url = https://github.com/qccomputerso/program-course
-	branch = main
