@@ -47,7 +47,7 @@ as well as training for the
 	<span>Mike Lam</span>
 	<span>4A (17)</span>
 	<span>Anson Yeung</span>
-	<span>4A (31)</span>
+	<span>4A (35)</span>
 </div>
 <br>
 <a href="/contacts/">
