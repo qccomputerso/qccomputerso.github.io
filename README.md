@@ -1,2 +1,2 @@
-# qccomputerso.github.io
-homepage of qc computer science society
+# QC-Science-Association.github.io
+Homepage of QC Science Association
