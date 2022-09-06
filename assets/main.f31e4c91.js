@@ -1,4 +1,4 @@
-import{P as a,c as n,_ as t}from"./App.vue_vue_type_script_setup_true_lang.0fb7f8c0.js";a.content.cards=[{title:"Welcome to our homepage!",content:`
+import{P as a,c as n,_ as t}from"./App.vue_vue_type_script_setup_true_lang.54d558e6.js";a.content.cards=[{title:"Welcome to our homepage!",content:`
 Our goal as the Society of Computer Studies is to provide insight about programming and Computer Science
 to our schoolmates, and to help them gain a better understanding of the topics, as well as an understanding
 of the impact of rapid development of IT on our society.
