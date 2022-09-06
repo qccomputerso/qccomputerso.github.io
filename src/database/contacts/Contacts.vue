@@ -4,7 +4,7 @@ import { onUnmounted } from "vue";
 import App from "@/App.vue";
 import Card from "@/components/Card.vue";
 
-const copied: Record<string, boolean> = {};
+const copied: Record<string, boolean> = $ref({});
 const timeouts: number[] = [];
 async function copy(text: string, id: string) {
 	copied[id] = true;
@@ -30,8 +30,8 @@ onUnmounted(() => {
 			>
 				<span>Email:</span><span>qccomputerso@gmail.com</span>
 			</span>
+			<span v-if="copied.email">(Copied)</span>
 			<br>
-			<span v-if="copied['email']">(Copied)</span>
 			<br>
 			<h3>Public</h3>
 			<a
