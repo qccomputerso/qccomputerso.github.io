@@ -79,6 +79,13 @@ if (!timeSpacing) timeSpacing = totalLength;
 									{ year: "numeric", month: "2-digit", day: "2-digit" }
 								) }}:
 								{{ event.title }}
+								<b
+									v-if="event.date.getTime() - currentTime > 0 &&
+										event.date.getTime() - currentTime < 84600 * 1000 * 2"
+									class="c-event-text__exclaim"
+								>
+									!
+								</b>
 							</div>
 						</foreignObject>
 						<circle
@@ -139,5 +146,27 @@ if (!timeSpacing) timeSpacing = totalLength;
 	font-weight: 300;
 	text-shadow: none;
 	transform: translateY(-50%);
+}
+
+.c-event-text__exclaim {
+	color: rgb(255, 127, 68);
+	position: relative;
+	display: inline-block;
+	font-size: 1.6em;
+	line-height: 0;
+	vertical-align: middle;
+}
+
+.c-event-text__exclaim::before {
+	content: "!";
+	position: absolute;
+	inset: 0;
+	animation: a-exclaim 1s infinite ease-out;
+}
+
+@keyframes a-exclaim {
+	0% { transform: scale(3); opacity: 0.8; }
+	80% { transform: scale(0.8); opacity: 0; }
+	100% { transform: scale(0.8); opacity: 0; }
 }
 </style>
