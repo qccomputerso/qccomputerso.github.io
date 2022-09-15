@@ -1,5 +1,11 @@
 import { Page } from ".";
 
+Page.content.notification = {
+	title: "Orientation Day!",
+	content: `The O Day will be held soon! Be sure to come for a program demonstration and interesting talks!
+	We may even have quizzes and give out prizes! Details will be announced soon.`
+};
+
 Page.content.cards = [{
 	title: `Welcome to our homepage!`,
 	content: `
