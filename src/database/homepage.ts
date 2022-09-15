@@ -31,23 +31,29 @@ as well as training for the
 <b>Chairman:</b>
 <div class="o-info-bicolumn-display">
 	<span>Alex Wu</span>
-	<span>4D (??)</span>
+	<span>4D (30)</span>
 </div>
 <br>
-<b>Vice Chairmen:</b>
+<b>Vice Chairman:</b>
 <div class="o-info-bicolumn-display">
 	<span>Edison Fu</span>
 	<span>4A (10)</span>
 	<span>Chen Kyle</span>
-	<span>5? (??)</span>
+	<span>5A (04)</span>
 </div>
 <br>
 <b>Committees:</b>
 <div class="o-info-bicolumn-display">
+	<span>Chan Ching Kiu</span>
+	<span>3A (02)</span>
 	<span>Mike Lam</span>
 	<span>4A (17)</span>
 	<span>Anson Yeung</span>
 	<span>4A (35)</span>
+	<span>Arthur Pang</span>
+	<span>5A (19)</span>
+	<span>Kevin Li Yue Wang</span>
+	<span>5B (19)</span>
 </div>
 <br>
 <a href="/contacts/">

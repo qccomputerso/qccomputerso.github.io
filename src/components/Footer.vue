@@ -2,7 +2,7 @@
 	<div class="c-footer">
 		Think you can make this webpage better?
 		<a
-			href="https://github.com/QC-Science-Association/QC-Science-Association.github.io"
+			href="https://github.com/qccomputerso/qccomputerso.github.io"
 			target="_blank"
 		>
 			Source Code
