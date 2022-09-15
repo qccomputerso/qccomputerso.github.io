@@ -1,4 +1,5 @@
-import{P as a,c as n,_ as s}from"./App.vue_vue_type_script_setup_true_lang.e1641b61.js";a.content.cards=[{title:"Welcome to our homepage!",content:`
+import{P as n,c as a,_ as e}from"./App.vue_vue_type_script_setup_true_lang.40b42447.js";n.content.notification={title:"Orientation Day!",content:`The O Day will be held soon! Be sure to come for a program demonstration and interesting talks!
+	We may even have quizzes and give out prizes! Details will be announced soon.`};n.content.cards=[{title:"Welcome to our homepage!",content:`
 Our goal as the Society of Computer Studies is to provide insight about programming and Computer Science
 to our schoolmates, and to help them gain a better understanding of the topics, as well as an understanding
 of the impact of rapid development of IT on our society.
@@ -48,4 +49,4 @@ as well as training for the
 	<button>
 		Contact Us >>
 	</button>
-</a>`}];n(s).mount("#app");
+</a>`}];a(e).mount("#app");
