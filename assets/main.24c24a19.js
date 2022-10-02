@@ -39,7 +39,7 @@ skills!`},{title:"Officials List",content:`
 <br>
 <b>Committees:</b>
 <div class="o-info-bicolumn-display">
-	<span>CK Chan Ching Kiu</span>
+	<span>Chan Ching Kiu</span>
 	<span>3A (02)</span>
 	<span>Mike Lam</span>
 	<span>4A (17)</span>
