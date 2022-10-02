@@ -76,7 +76,7 @@
 			"property"
 		],
 		"dot-notation": "error",
-		"eol-last": ["error", "never"],
+		"eol-last": ["warn", "never"],
 		"eqeqeq": "error",
 		"no-else-return": [
 			"error",
