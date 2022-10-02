@@ -1,13 +1,19 @@
 export interface RoadmapDBEntry {
-	date: Date
+	date1: Date
+	date2?: Date
 	title: string
 }
 
 export const Roadmap: RoadmapDBEntry[] = [{
-	date: new Date(2022, 8, 1),
+	date1: new Date(2022, 8, 1),
 	title: "Start of School Year"
 },
 {
-	date: new Date(2023, 8, 1),
-	title: "Start of next School Year"
+	date1: new Date(2022, 9, 10),
+	title: "Orientation Day"
+},
+{
+	date1: new Date(2023, 8, 1),
+	date2: new Date(3023, 8, 1),
+	title: "???"
 }];

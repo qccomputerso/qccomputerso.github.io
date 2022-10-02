@@ -14,10 +14,10 @@ const currentTime = Date.now();
 let timeSpacing = 0;
 for (let idx = 0; idx < Roadmap.length; idx++) {
 	const event = Roadmap[idx];
-	const space = idx === 0 ? 0 : Math.log2(event.date.getTime() - Roadmap[idx - 1].date.getTime()) * 10 - 205;
-	if (currentTime <= event.date.getTime() && !timeSpacing) {
+	const space = idx === 0 ? 0 : Math.log2(event.date1.getTime() - Roadmap[idx - 1].date1.getTime()) * 10 - 205;
+	if (currentTime <= event.date1.getTime() && !timeSpacing) {
 		timeSpacing = roadmapEntries[idx - 1].totalSpacing + space *
-			(1 - (event.date.getTime() - currentTime) / (event.date.getTime() - Roadmap[idx - 1].date.getTime()));
+			(1 - (event.date1.getTime() - currentTime) / (event.date1.getTime() - Roadmap[idx - 1].date1.getTime()));
 	}
 	roadmapEntries.push({
 		...event,
@@ -72,16 +72,19 @@ if (!timeSpacing) timeSpacing = totalLength;
 							<div
 								class="c-event-text"
 								:style="{
-									color: timeSpacing >= event.totalSpacing ? '#87bfe6' : 'var(--colour-accent)'
+									color: timeSpacing >= event.totalSpacing ? '#e8ecad' : 'var(--colour-accent)'
 								}"
 							>
-								{{ event.date.toLocaleDateString(undefined,
+								{{ event.date1.toLocaleDateString(undefined,
 									{ year: "numeric", month: "2-digit", day: "2-digit" }
-								) }}:
+								) +
+									(event.date2 ? ` - ${event.date2.toLocaleDateString(undefined,
+										{ year: "numeric", month: "2-digit", day: "2-digit" }
+									)}` : "") }}:
 								{{ event.title }}
 								<b
-									v-if="event.date.getTime() - currentTime > 0 &&
-										event.date.getTime() - currentTime < 84600 * 1000 * 2"
+									v-if="(event.date2 || event.date1).getTime() - currentTime > 0 &&
+										event.date1.getTime() - currentTime < 84600 * 1000 * 2"
 									class="c-event-text__exclaim"
 								>
 									!
@@ -94,7 +97,7 @@ if (!timeSpacing) timeSpacing = totalLength;
 							r="8"
 							class="c-event-point"
 							:style="{
-								stroke: timeSpacing >= event.totalSpacing ? '#37afe6' : 'var(--colour-accent)'
+								stroke: timeSpacing >= event.totalSpacing ? '#e8ec0d' : 'var(--colour-accent)'
 							}"
 						/>
 					</g>
@@ -128,7 +131,7 @@ if (!timeSpacing) timeSpacing = totalLength;
 
 .c-central-line--time-spacing {
 	stroke-width: 5;
-	stroke: #37afe6;
+	stroke: #e8ec0d;
 	stroke-linecap: round;
 }
 
