@@ -72,7 +72,7 @@ button:hover {
 
 .o-info-bicolumn-display {
 	display: grid;
-	grid-template-columns: 200px auto;
+	grid-template-columns: 120px auto;
 }
 
 @media screen and (max-width: 640px) {
