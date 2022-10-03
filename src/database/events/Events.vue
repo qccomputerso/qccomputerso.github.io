@@ -141,7 +141,6 @@ if (!timeSpacing) timeSpacing = totalLength;
 }
 
 .c-event-text {
-	font-size: 13px;
 	max-width: calc(100% - 50px);
 	position: relative;
 	top: 50%;
