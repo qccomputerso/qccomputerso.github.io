@@ -35,7 +35,7 @@ const hasSlot = (name: string) => Boolean(slots[name]);
 				class="c-paragraph-card__title"
 				v-html="card.title"
 			/>
-			<span
+			<div
 				class="c-paragraph-card__content"
 				v-html="card.content"
 			/>
@@ -47,9 +47,9 @@ const hasSlot = (name: string) => Boolean(slots[name]);
 			>
 				<slot name="header" />
 			</h2>
-			<span class="c-paragraph-card__content">
+			<div class="c-paragraph-card__content">
 				<slot />
-			</span>
+			</div>
 		</template>
 	</div>
 </template>

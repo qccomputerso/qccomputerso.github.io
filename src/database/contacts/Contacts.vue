@@ -24,13 +24,13 @@ onUnmounted(() => {
 				Contact Us
 			</template>
 			<h3>Private</h3>
-			<span
+			<div
 				class="o-link--clickable o-info-bicolumn-display"
 				@click="copy('qccomputerso@gmail.com', 'email');"
 			>
-				<span>Email:</span><span>qccomputerso@gmail.com</span>
-			</span>
-			<span v-if="copied.email">(Copied)</span>
+				<div>Email:</div><div>qccomputerso@gmail.com</div>
+			</div>
+			<i v-if="copied.email">(Copied)</i>
 			<br>
 			<br>
 			<h3>Public</h3>
@@ -39,7 +39,7 @@ onUnmounted(() => {
 				href="https://www.instagram.com/qc_socs/"
 				target="_blank"
 			>
-				<span>Instagram:</span><span>@qc_socs</span>
+				<div>Instagram:</div><div>@qc_socs</div>
 			</a>
 			<br>
 			<br>

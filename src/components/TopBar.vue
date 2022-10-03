@@ -33,14 +33,14 @@ addEventListener("resize", () => {
 
 <template>
 	<div class="c-topbar">
-		<span
+		<div
 			class="c-topbar__title"
 			:style="{
 				fontSize: titleSize
 			}"
 		>
 			QC COMPUTER SOCIETY
-		</span>
+		</div>
 		<img
 			class="c-topbar__logo-image"
 			:src="LogoPath"
@@ -60,14 +60,14 @@ addEventListener("resize", () => {
 		</div>
 	</div>
 	<div class="c-topbar c-topbar--fake">
-		<span
+		<div
 			class="c-topbar__title"
 			:style="{
 				fontSize: maxTitleSize
 			}"
 		>
 			QC SCIENCE ASSOCIATION
-		</span>
+		</div>
 		<img
 			class="c-topbar__logo-image"
 			:width="maxLogoSize"

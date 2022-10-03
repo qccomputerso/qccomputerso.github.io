@@ -42,30 +42,30 @@ skills!`
 	content: `
 <b>Chairman:</b>
 <div class="o-info-bicolumn-display">
-	<span>Alex Wu</span>
-	<span>4D (30)</span>
+	<div>Alex Wu</div>
+	<div>4D (30)</div>
 </div>
 <br>
 <b>Vice Chairman:</b>
 <div class="o-info-bicolumn-display">
-	<span>Edison Fu</span>
-	<span>4A (10)</span>
-	<span>Kyle Chen</span>
-	<span>5A (04)</span>
+	<div>Edison Fu</div>
+	<div>4A (10)</div>
+	<div>Kyle Chen</div>
+	<div>5A (04)</div>
 </div>
 <br>
 <b>Committees:</b>
 <div class="o-info-bicolumn-display">
-	<span>Chan Ching Kiu</span>
-	<span>3A (02)</span>
-	<span>Mike Lam</span>
-	<span>4A (17)</span>
-	<span>Anson Yeung</span>
-	<span>4A (35)</span>
-	<span>Arthur Pang</span>
-	<span>5A (19)</span>
-	<span>Kevin Li</span>
-	<span>5B (19)</span>
+	<div>Chan Ching Kiu</div>
+	<div>3A (02)</div>
+	<div>Mike Lam</div>
+	<div>4A (17)</div>
+	<div>Anson Yeung</div>
+	<div>4A (35)</div>
+	<div>Arthur Pang</div>
+	<div>5A (19)</div>
+	<div>Kevin Li</div>
+	<div>5B (19)</div>
 </div>
 <br>
 <a href="/contacts/">

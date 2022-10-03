@@ -21,7 +21,7 @@ const { notification } = defineProps<{
 			{{ notification.title }}
 		</h2>
 		<br>
-		<span v-html="notification.content" />
+		<div v-html="notification.content" />
 	</div>
 </template>
 
