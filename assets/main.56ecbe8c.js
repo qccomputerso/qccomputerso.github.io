@@ -1,5 +1,5 @@
-import{P as a,c as n,_ as e}from"./App.vue_vue_type_script_setup_true_lang.40b42447.js";a.content.notification={title:"Orientation Day!",content:`The Orientation Day will be held on 10/10 at Room 238! Be sure to come for a program demonstration,
-	games showcase, and interesting talks! Fun is guaranteed for all!`};a.content.cards=[{title:"Welcome to our homepage!",content:`
+import{P as i,c as e,_ as o}from"./App.vue_vue_type_script_setup_true_lang.0b0a3d0d.js";i.content.notification={title:"Orientation Day!",content:`The Orientation Day will be held on 10/10 at Room 238! Be sure to come for a program demonstration,
+	games showcase, and interesting talks! Fun is guaranteed for all!`};i.content.cards=[{title:"Welcome to our homepage!",content:`
 Our goal as the Society of Computer Studies is to provide insight about programming and Computer Science
 to our schoolmates, and to help them gain a better understanding of the topics, as well as an understanding
 of the impact of rapid development of IT on our society.
@@ -25,34 +25,34 @@ already experienced in programming, we may hold a mini competition which allows 
 skills!`},{title:"Officials List",content:`
 <b>Chairman:</b>
 <div class="o-info-bicolumn-display">
-	<span>Alex Wu</span>
-	<span>4D (30)</span>
+	<div>Alex Wu</div>
+	<div>4D (30)</div>
 </div>
 <br>
 <b>Vice Chairman:</b>
 <div class="o-info-bicolumn-display">
-	<span>Edison Fu</span>
-	<span>4A (10)</span>
-	<span>Kyle Chen</span>
-	<span>5A (04)</span>
+	<div>Edison Fu</div>
+	<div>4A (10)</div>
+	<div>Kyle Chen</div>
+	<div>5A (04)</div>
 </div>
 <br>
 <b>Committees:</b>
 <div class="o-info-bicolumn-display">
-	<span>Chan Ching Kiu</span>
-	<span>3A (02)</span>
-	<span>Mike Lam</span>
-	<span>4A (17)</span>
-	<span>Anson Yeung</span>
-	<span>4A (35)</span>
-	<span>Arthur Pang</span>
-	<span>5A (19)</span>
-	<span>Kevin Li</span>
-	<span>5B (19)</span>
+	<div>Chan Ching Kiu</div>
+	<div>3A (02)</div>
+	<div>Mike Lam</div>
+	<div>4A (17)</div>
+	<div>Anson Yeung</div>
+	<div>4A (35)</div>
+	<div>Arthur Pang</div>
+	<div>5A (19)</div>
+	<div>Kevin Li</div>
+	<div>5B (19)</div>
 </div>
 <br>
 <a href="/contacts/">
 	<button>
 		Contact Us >>
 	</button>
-</a>`}];n(e).mount("#app");
+</a>`}];e(o).mount("#app");
