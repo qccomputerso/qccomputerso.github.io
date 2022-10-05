@@ -15,7 +15,7 @@ of the impact of rapid development of IT on our society.
 <br>
 <br>
 We conduct
-<a href="https://qcsocs.xyz/program-course/" target="_blank">programming courses</a>,
+<a href="https://qcsocs.com/program-course/" target="_blank">programming courses</a>,
 as well as training for the
 <a href="https://hkoi.org/en/" target="_blank">HKOI</a>
 (Hong Kong Olympiad in Informatics) to achieve our aims.
