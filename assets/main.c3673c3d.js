@@ -1,5 +1,5 @@
-import{P as i,c as e,_ as o}from"./App.vue_vue_type_script_setup_true_lang.0b0a3d0d.js";i.content.notification={title:"Orientation Day!",content:`The Orientation Day will be held on 10/10 at Room 238! Be sure to come for a program demonstration,
-	games showcase, and interesting talks! Fun is guaranteed for all!`};i.content.cards=[{title:"Welcome to our homepage!",content:`
+import{P as i,c as e,_ as o}from"./App.vue_vue_type_script_setup_true_lang.0b0a3d0d.js";i.content.notification={title:"Orientation Day!",content:`The Orientation Day will be held on 11/10 at Room 238! Be sure to come for a program demonstration,
+	games showcase, and intriguing talks about machine learning! Fun is guaranteed for all!`};i.content.cards=[{title:"Welcome to our homepage!",content:`
 Our goal as the Society of Computer Studies is to provide insight about programming and Computer Science
 to our schoolmates, and to help them gain a better understanding of the topics, as well as an understanding
 of the impact of rapid development of IT on our society.
