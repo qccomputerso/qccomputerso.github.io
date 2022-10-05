@@ -2,8 +2,8 @@ import { Page } from ".";
 
 Page.content.notification = {
 	title: "Orientation Day!",
-	content: `The Orientation Day will be held on 10/10 at Room 238! Be sure to come for a program demonstration,
-	games showcase, and interesting talks! Fun is guaranteed for all!`
+	content: `The Orientation Day will be held on 11/10 at Room 238! Be sure to come for a program demonstration,
+	games showcase, and intriguing talks about machine learning! Fun is guaranteed for all!`
 };
 
 Page.content.cards = [{
