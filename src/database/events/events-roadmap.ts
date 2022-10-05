@@ -9,7 +9,7 @@ export const Roadmap: RoadmapDBEntry[] = [{
 	title: "Start of School Year"
 },
 {
-	date1: new Date(2022, 9, 10),
+	date1: new Date(2022, 9, 11),
 	title: "Orientation Day"
 },
 {
