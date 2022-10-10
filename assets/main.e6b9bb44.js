@@ -1,5 +1,13 @@
-import{P as i,c as e,_ as o}from"./App.vue_vue_type_script_setup_true_lang.0b0a3d0d.js";i.content.notification={title:"Orientation Day!",content:`The Orientation Day will be held on 11/10 at Room 238! Be sure to come for a program demonstration,
-	games showcase, and intriguing talks about machine learning! Fun is guaranteed for all!`};i.content.cards=[{title:"Welcome to our homepage!",content:`
+import{P as e,c as i,_ as t}from"./App.vue_vue_type_script_setup_true_lang.0b0a3d0d.js";e.content.notification={title:"Orientation Day!",content:`The Orientation Day will be held on 11/10 at Room 238! Be sure to come for a program demonstration,
+games showcase, and intriguing talks about machine learning! Fun is guaranteed for all!${new Date().getDate()>=11&&new Date().getHours()>=15?`<br><br>
+PROGRAM DEMONSTRATION:
+<a href="https://github.com/qccomputerso/socs-2022-oday-demo/releases/download/Release/PerlinDemo.exe"
+target="_blank">DOWNLOAD HERE</a>
+<br>
+GAMES SHOWCASE:
+<a href="https://dystopia-user181.itch.io/consequence" target="_blank">Game 1 (RECOMMENDED)</a>
+<a href="https://dystopia-user181.itch.io/the-alterhistorians-conquest" target="_blank">Game 2</a>
+<a href="https://dystopia-user181.github.io/The-Alterhistorian/" target="_blank">Game 3</a>`:""}`};e.content.cards=[{title:"Welcome to our homepage!",content:`
 Our goal as the Society of Computer Studies is to provide insight about programming and Computer Science
 to our schoolmates, and to help them gain a better understanding of the topics, as well as an understanding
 of the impact of rapid development of IT on our society.
@@ -55,4 +63,4 @@ skills!`},{title:"Officials List",content:`
 	<button>
 		Contact Us >>
 	</button>
-</a>`}];e(o).mount("#app");
+</a>`}];i(t).mount("#app");
