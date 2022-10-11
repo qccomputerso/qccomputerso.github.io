@@ -1,23 +1,34 @@
+import CommitteeList from "@/assets/committee-list.jpeg";
+
 import { Page } from ".";
 
 
 Page.content.notification = {
-	title: "Orientation Day!",
-	content: `The Orientation Day will be held on 11/10 at Room 238! Be sure to come for a program demonstration,
-games showcase, and intriguing talks about machine learning! Fun is guaranteed for all!
-<br><br>
-PROGRAM DEMONSTRATION:
-<a href="https://github.com/qccomputerso/socs-2022-oday-demo/releases/download/Release/PerlinDemo.exe"
-target="_blank">DOWNLOAD HERE</a>
-<br>
-GAMES SHOWCASE:
-<a href="https://dystopia-user181.itch.io/consequence" target="_blank">Game 1 (RECOMMENDED)</a>
-<a href="https://dystopia-user181.itch.io/the-alterhistorians-conquest" target="_blank">Game 2</a>
-<a href="https://dystopia-user181.github.io/The-Alterhistorian/" target="_blank">Game 3</a>
-`
+	title: "Subcom Recruitment!",
+	content: `
+We are currently recruiting subcommittee members for the new school year! Details will be announced through
+the school g-mail soon.`
 };
 
 Page.content.cards = [{
+	title: "The Orientation Day is over...",
+	content: `
+... But you can still retrieve the materials! Simply click on "O-Day materials", or the button
+on the bottom of this card to get them. If you did not come to the O-Day, you can use these materials as
+references.
+<br>
+<br>
+<a href="/o-day/">
+	<button>
+		Take me there >>
+	</button>
+</a>`
+},
+{
+	headerImage: {
+		href: CommitteeList,
+		width: 400,
+	},
 	title: `Welcome to our homepage!`,
 	content: `
 Our goal as the Society of Computer Studies is to provide insight about programming and Computer Science

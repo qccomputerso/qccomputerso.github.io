@@ -95,6 +95,7 @@ const hasSlot = (name: string) => Boolean(slots[name]);
 	text-align: center;
 	font-style: italic;
 	font-size: 12px;
+	margin-bottom: 10px;
 }
 
 .c-paragraph-card__title {

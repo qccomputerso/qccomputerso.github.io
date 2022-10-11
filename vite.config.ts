@@ -28,7 +28,8 @@ export default defineConfig({
 			input: {
 				main: resolve(__dirname, "index.html"),
 				events: resolve(__dirname, "events/index.html"),
-				contacts: resolve(__dirname, "contacts/index.html")
+				contacts: resolve(__dirname, "contacts/index.html"),
+				"o-day": resolve(__dirname, "o-day/index.html"),
 			}
 		}
 	}

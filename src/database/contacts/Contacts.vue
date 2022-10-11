@@ -43,6 +43,10 @@ onUnmounted(() => {
 			</a>
 			<br>
 			<br>
+			If you wish to contact us in-person, you may refer to the committee list on the homepage for more
+			details. We may be available before school, during recesses, or during lunch.
+			<br>
+			<br>
 			<a href="/">
 				<button>
 					&lt;&lt; Homepage
