@@ -4,8 +4,8 @@ import { Page } from ".";
 Page.content.notification = {
 	title: "Orientation Day!",
 	content: `The Orientation Day will be held on 11/10 at Room 238! Be sure to come for a program demonstration,
-games showcase, and intriguing talks about machine learning! Fun is guaranteed for all!${
-	new Date().getDate() >= 11 && new Date().getHours() >= 15 ? `<br><br>
+games showcase, and intriguing talks about machine learning! Fun is guaranteed for all!
+<br><br>
 PROGRAM DEMONSTRATION:
 <a href="https://github.com/qccomputerso/socs-2022-oday-demo/releases/download/Release/PerlinDemo.exe"
 target="_blank">DOWNLOAD HERE</a>
@@ -13,8 +13,8 @@ target="_blank">DOWNLOAD HERE</a>
 GAMES SHOWCASE:
 <a href="https://dystopia-user181.itch.io/consequence" target="_blank">Game 1 (RECOMMENDED)</a>
 <a href="https://dystopia-user181.itch.io/the-alterhistorians-conquest" target="_blank">Game 2</a>
-<a href="https://dystopia-user181.github.io/The-Alterhistorian/" target="_blank">Game 3</a>` : ""
-}`
+<a href="https://dystopia-user181.github.io/The-Alterhistorian/" target="_blank">Game 3</a>
+`
 };
 
 Page.content.cards = [{
@@ -40,9 +40,7 @@ as well as training for the
 },
 {
 	title: `Events`,
-	content: `The Orientation day is coming soon, be sure to give us a visit!!!
-<br>
-<br>
+	content: `
 This year, we will hold a programming course which teaches C++, a strongly typed and extremely quick language
 which is often used as a framework for many problems which require high computational speeds. For those who are
 already experienced in programming, we may hold a mini competition which allows you to demonstrate your programming
