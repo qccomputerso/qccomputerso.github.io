@@ -1,6 +1,17 @@
 import { Page } from ".";
 
 Page.content.cards = [{
+	title: "Machine Learning Talk",
+	content: `
+Have you ever tried searching for how an AI works, but were dazzled by so many mathematical symbols and seemingly
+dark magic? Don't panic! One of our beloved committee members has prepared some powerpoint slides demonstrating a
+(grossly simplified) explanation of the backbone of Artificial Intelligence. Do note however that it is not in any
+way comprehensive: There is still a lot of information we left out to be gained! Use this presentation as a jumping
+board for more in-depth searches, not as an authority of information itself.
+<br><br>
+<a href="misc-assets/presentation_ai.pptx" download>DOWNLOAD HERE</a>`
+},
+{
 	title: "Program Demonstration",
 	content: `
 Have you ever wondered how Minecraft generates its diverse landscapes and biomes? Well, it turns out the answer
