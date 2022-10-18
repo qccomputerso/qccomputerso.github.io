@@ -35,11 +35,6 @@ if (!timeSpacing) timeSpacing = totalLength;
 			<template #header>
 				Roadmap of Events
 			</template>
-			<h4>
-				NOTE: Most of the events here are still tentative, as the school year has only just started.
-				Events may be added, removed, or changed in due course. Do not use this as an absolute guide
-				to our year plan just yet.
-			</h4>
 			<div class="c-svg-container">
 				<svg
 					class="c-svg-el"
