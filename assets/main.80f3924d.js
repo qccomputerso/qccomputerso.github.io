@@ -1,6 +1,7 @@
 import{P as e,c as t,_ as i}from"./App.vue_vue_type_script_setup_true_lang.a0be23cc.js";const o=""+new URL("committee-list.847f97b7.jpeg",import.meta.url).href;e.content.notification={title:"Subcom Recruitment!",content:`
-We are currently recruiting subcommittee members for the new school year! Details will be announced through
-the school g-mail soon.`};e.content.cards=[{title:"The Orientation Day is over...",content:`
+We are currently recruiting subcommittee members for the new school year! Fill in the google form now
+<a href="https://forms.gle/vjk1T9JETDSqgmj48" target="_blank">HERE</a>. For any more information you may
+contact us- Details are at the bottom of the page.`};e.content.cards=[{title:"The Orientation Day is over...",content:`
 ... But you can still retrieve the materials! Simply click on "O-Day materials", or the button
 on the bottom of this card to get them. If you did not come to the O-Day, you can use these materials as
 references.
