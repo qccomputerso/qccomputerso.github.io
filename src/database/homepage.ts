@@ -2,22 +2,19 @@ import CommitteeList from "@/assets/committee-list.jpeg";
 
 import { Page } from ".";
 
+Page.content.notification = {
+	title: "Programming Course",
+	content: `
+In the following year, we will hold a programming course, with C++, a quick and versatile programming language,
+as our main language. You may even get a chance to learn web or game development! Fill in the google form now
+<a href="https://forms.gle/46ueCuvZb9rSSnAd6" target="_blank">HERE</a> to join. For any more information you may
+contact us- Details are at the bottom of the page.
+<br><br>
+Also, we have just published our FIRST EDITION of the publication "True or not True"!
+<a href="https://www.instagram.com/qc_socs/" target="_blank">Check our instagram page for more.</a>`
+};
 
 Page.content.cards = [{
-	title: "The Orientation Day is over...",
-	content: `
-... But you can still retrieve the materials! Simply click on "O-Day materials", or the button
-on the bottom of this card to get them. If you did not come to the O-Day, you can use these materials as
-references.
-<br>
-<br>
-<a href="/o-day/">
-	<button>
-		Take me there >>
-	</button>
-</a>`
-},
-{
 	headerImage: {
 		href: CommitteeList,
 		width: 400,
