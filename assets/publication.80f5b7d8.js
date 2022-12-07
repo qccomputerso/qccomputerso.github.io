@@ -26,56 +26,57 @@ import{P as u,c as e,_ as t}from"./App.vue_vue_type_script_setup_true_lang.e88c1
 
 <b>\u5409\u591A\xB7\u7BC4\u7F85\u8607\u59C6(Guido van Rossum, 1956- )</b>
 <br><br>
-Python \u662F\u7576\u4E0B\u6700\u5E38\u7528\u7684\u7DE8\u7A0B\u8A9E\u8A00\u4E4B\u4E00\uFF0CDropbox, Battlefield 2\u7B49\u8457\u540D\u904A\u6232\u3001\u5DE5\u5177\uFF0C\u751A\u81F3\u4E0D\u5C11\u4EBA\u5DE5\u667A\u80FD(AI)\u80CC\u5F8C\u7684\u7A0B\u5F0F\u7686\u4F7F\u7528Python\u8A9E\u8A00\u7DE8\u5BEB\uFF0C
+Python \u662F\u7576\u4E0B\u6700\u5E38\u7528\u7684\u7DE8\u7A0B\u8A9E\u8A00\u4E4B\u4E00\uFF0CDropbox\uFF0CBattlefield 2\u7B49\u8457\u540D\u904A\u6232\u3001\u5DE5\u5177\uFF0C\u751A\u81F3\u4E0D\u5C11\u4EBA\u5DE5\u667A\u80FD(AI)\u80CC\u5F8C\u7684\u7A0B\u5F0F\u7686\u4F7F\u7528Python\u8A9E\u8A00\u7DE8\u5BEB\uFF0C
 \u800C\u9019\u8A9E\u8A00\u7684\u8A2D\u8A08\u8005\u4FBF\u662F\u7BC4\u7F85\u8607\u59C6\u30021989\u7684\u8056\u8A95\u7BC0\uFF0C\u4ED6\u5728\u5BB6\u4E2D\u7121\u6240\u4E8B\u4E8B\uFF0C\u4FBF\u958B\u59CB\u5275\u4F5CPython\u8A9E\u8A00\u89E3\u60B6\uFF0C\u6700\u5F8C\u65BC1991\u5E74\u767C\u8868\u4E860.9.0\u7248\u672C\u3002
 \u622A\u81F32022\u5E741\u670814\u65E5\uFF0CPython\u5DF2\u7136\u767C\u5C55\u81F33.11.0\u7248\u672C\u3002
 <br>
 Python\u8A9E\u8A00\u512A\u9EDE\u5728\u65BC\u8A00\u7C21\u610F\u8CC5\uFF0C\u6BD4\u8D77\u5176\u4ED6\u8A9E\u8A00\uFF0C\u57F7\u884C\u76F8\u540C\u7684\u6307\u4EE4\u6642\u80FD\u7701\u4E0B\u4E0D\u5C11\u4EE3\u78BC\uFF0C\u4E14\u8F03\u5BB9\u6613\u660E\u767D\u3002\u4E0D\u904E\uFF0C\u5B83\u57F7\u884C\u6307\u4EE4\u7684\u901F\u5EA6\u8F03\u6162\uFF0C\u56E0\u6B64\u4E0D\u5E38\u7528\u65BC\u5927\u578B\u5C08\u6848\u3002
-<br><hr><br>
+<br><br><hr><br>
 
-Even with the amazing developments of modern computer science, we should not forget the giants of the past
+Even with the amazing developments of modern computer science, we should not forget the giants of the past 
 who paved the way for such a feat. Let's talk about some of them!
 <br><br>
 
 <b>Alan Turing (1912-1954)</b>
 <br><br>
-Turing has been dubbed "the father of computer science and artificial intelligence", quite rightfully as
-one of the most influential computer scientists even today. He invented the Turing Machine, a hypothetical
-abstract model of a CPU which is able to handle any computation action that can exist, whether or not it
+Turing has been dubbed "the father of computer science and artificial intelligence", quite rightfully as 
+one of the most influential computer scientists even today. He invented the Turing Machine, a hypothetical 
+abstract model of a CPU which is able to handle any computation action that can exist, whether or not it 
 has been invented. It allows people to figure out what limitations any type of computer might have.
 <br>
-In WWII, Turing used his computational model to solve the "Enigma" code used by Nazi Germany, allowing
-them to decrypt all messages sent by them. This impeded the progres of the Nazis and saved countless
-lives. Unfortunately, due to his sexuality, he was driven to suicide by the British government at only
+In WWII, Turing used his computational model to solve the "Enigma" code used by Nazi Germany, allowing 
+them to decrypt all messages sent by them. This impeded the progres of the Nazis and saved countless 
+lives. Unfortunately, due to his sexuality, he was driven to suicide by the British government at only 
 the age of 42.
 <br><br>
 
 <b>Ada Lovelace (1815-1852)</b>
 <br><br>
-Ada Lovelace is widely regarded as the world's first computer scientist. In 1842, she published the first
-known example of an "algorithm", which can be thought of as a computer program. As an early example of a
-programmer, she realised the potential of calculators beyond solving simple arithmetics, and laid groundwork
+Ada Lovelace is widely regarded as the world's first computer scientist. In 1842, she published the first 
+known example of an "algorithm", which can be thought of as a computer program. As an early example of a 
+programmer, she realised the potential of calculators beyond solving simple arithmetics, and laid groundwork 
 for far more complex computing today.
 <br><br>
 
 <b>Vinton Cerf (1943- ) and Robert Kahn (1938- )</b>
 <br><br>
-On Jan 1 1983, the world saw the Internet for the first time. Computer Scientists Vinton Cerf and Robert Kahn
-played a big role in its invention, by developing the Transmission Control Protocol (TCP) and Internet Protocol (IP)
-which help networks communicate correctly and efficiently. IP is the most well known, acting like your home
-address but for your computer's position in the Internet instead, and it ensures that data is sent to the
-correct machines. This made the Internet possible, and most importantly, reliable, and the system is still
+On Jan 1 1983, the world saw the Internet for the first time. Computer Scientists Vinton Cerf and Robert Kahn 
+played a big role in its invention, by developing the Transmission Control Protocol (TCP) and Internet Protocol (IP) 
+which help networks communicate correctly and efficiently. IP is the most well known, acting like your home 
+address but for your computer's position in the Internet instead, and it ensures that data is sent to the 
+correct machines. This made the Internet possible, and most importantly, reliable, and the system is still 
 being used and updated today.
 <br><br>
 
 <b>Guido van Rossum (1956- )</b>
 <br><br>
-Python is an all-pervasive language, being used in different tools and games like Dropbox and Battlefield 2,
-even acting as the language of choice for communicating with AI or robotics frameworks. Guido van Rossum
-invented python in the Christmas of 1989 when he was bored at home, and released the major edition Python
-0.9.0 in 1991. Python is still being updated today, with the latest version being 3.11.0.
+Python is an all-pervasive language, being used in different tools and games like Dropbox and Battlefield 2, 
+even acting as the language of choice for communicating with AI or robotics frameworks. Guido van Rossum 
+invented python in the Christmas of 1989 when he was bored at home, and released the major edition Python 
+0.9.0 in 1991. Python is still being updated today, with the latest version being 3.11.0. 
 <br>
-Python is intuitive and accomplishes a lot with few words. It is very declarative in nature, with many
-libraries helping it. However, since Python is fairly slow during execution, it may not be suitable
-for handling the backend of computationally heavy tasks.
-`});e(t).mount("#app");
+Python is intuitive and accomplishes a lot with few words. It is very declarative in nature, with many 
+libraries helping it. However, since Python is fairly slow during execution, it may not be suitable 
+for handling the backend of computationally heavy tasks. 
+`.replaceAll(`
+`,"")});e(t).mount("#app");
