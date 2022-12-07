@@ -32,57 +32,57 @@ Page.content.cards.push({
 
 <b>吉多·範羅蘇姆(Guido van Rossum, 1956- )</b>
 <br><br>
-Python 是當下最常用的編程語言之一，Dropbox, Battlefield 2等著名遊戲、工具，甚至不少人工智能(AI)背後的程式皆使用Python語言編寫，
+Python 是當下最常用的編程語言之一，Dropbox，Battlefield 2等著名遊戲、工具，甚至不少人工智能(AI)背後的程式皆使用Python語言編寫，
 而這語言的設計者便是範羅蘇姆。1989的聖誕節，他在家中無所事事，便開始創作Python語言解悶，最後於1991年發表了0.9.0版本。
 截至2022年1月14日，Python已然發展至3.11.0版本。
 <br>
 Python語言優點在於言簡意賅，比起其他語言，執行相同的指令時能省下不少代碼，且較容易明白。不過，它執行指令的速度較慢，因此不常用於大型專案。
-<br><hr><br>
+<br><br><hr><br>
 
-Even with the amazing developments of modern computer science, we should not forget the giants of the past
+Even with the amazing developments of modern computer science, we should not forget the giants of the past 
 who paved the way for such a feat. Let's talk about some of them!
 <br><br>
 
 <b>Alan Turing (1912-1954)</b>
 <br><br>
-Turing has been dubbed "the father of computer science and artificial intelligence", quite rightfully as
-one of the most influential computer scientists even today. He invented the Turing Machine, a hypothetical
-abstract model of a CPU which is able to handle any computation action that can exist, whether or not it
+Turing has been dubbed "the father of computer science and artificial intelligence", quite rightfully as 
+one of the most influential computer scientists even today. He invented the Turing Machine, a hypothetical 
+abstract model of a CPU which is able to handle any computation action that can exist, whether or not it 
 has been invented. It allows people to figure out what limitations any type of computer might have.
 <br>
-In WWII, Turing used his computational model to solve the "Enigma" code used by Nazi Germany, allowing
-them to decrypt all messages sent by them. This impeded the progres of the Nazis and saved countless
-lives. Unfortunately, due to his sexuality, he was driven to suicide by the British government at only
+In WWII, Turing used his computational model to solve the "Enigma" code used by Nazi Germany, allowing 
+them to decrypt all messages sent by them. This impeded the progres of the Nazis and saved countless 
+lives. Unfortunately, due to his sexuality, he was driven to suicide by the British government at only 
 the age of 42.
 <br><br>
 
 <b>Ada Lovelace (1815-1852)</b>
 <br><br>
-Ada Lovelace is widely regarded as the world's first computer scientist. In 1842, she published the first
-known example of an "algorithm", which can be thought of as a computer program. As an early example of a
-programmer, she realised the potential of calculators beyond solving simple arithmetics, and laid groundwork
+Ada Lovelace is widely regarded as the world's first computer scientist. In 1842, she published the first 
+known example of an "algorithm", which can be thought of as a computer program. As an early example of a 
+programmer, she realised the potential of calculators beyond solving simple arithmetics, and laid groundwork 
 for far more complex computing today.
 <br><br>
 
 <b>Vinton Cerf (1943- ) and Robert Kahn (1938- )</b>
 <br><br>
-On Jan 1 1983, the world saw the Internet for the first time. Computer Scientists Vinton Cerf and Robert Kahn
-played a big role in its invention, by developing the Transmission Control Protocol (TCP) and Internet Protocol (IP)
-which help networks communicate correctly and efficiently. IP is the most well known, acting like your home
-address but for your computer's position in the Internet instead, and it ensures that data is sent to the
-correct machines. This made the Internet possible, and most importantly, reliable, and the system is still
+On Jan 1 1983, the world saw the Internet for the first time. Computer Scientists Vinton Cerf and Robert Kahn 
+played a big role in its invention, by developing the Transmission Control Protocol (TCP) and Internet Protocol (IP) 
+which help networks communicate correctly and efficiently. IP is the most well known, acting like your home 
+address but for your computer's position in the Internet instead, and it ensures that data is sent to the 
+correct machines. This made the Internet possible, and most importantly, reliable, and the system is still 
 being used and updated today.
 <br><br>
 
 <b>Guido van Rossum (1956- )</b>
 <br><br>
-Python is an all-pervasive language, being used in different tools and games like Dropbox and Battlefield 2,
-even acting as the language of choice for communicating with AI or robotics frameworks. Guido van Rossum
-invented python in the Christmas of 1989 when he was bored at home, and released the major edition Python
-0.9.0 in 1991. Python is still being updated today, with the latest version being 3.11.0.
+Python is an all-pervasive language, being used in different tools and games like Dropbox and Battlefield 2, 
+even acting as the language of choice for communicating with AI or robotics frameworks. Guido van Rossum 
+invented python in the Christmas of 1989 when he was bored at home, and released the major edition Python 
+0.9.0 in 1991. Python is still being updated today, with the latest version being 3.11.0. 
 <br>
-Python is intuitive and accomplishes a lot with few words. It is very declarative in nature, with many
-libraries helping it. However, since Python is fairly slow during execution, it may not be suitable
-for handling the backend of computationally heavy tasks.
-`,
+Python is intuitive and accomplishes a lot with few words. It is very declarative in nature, with many 
+libraries helping it. However, since Python is fairly slow during execution, it may not be suitable 
+for handling the backend of computationally heavy tasks. 
+`.replaceAll("\n", ""),
 });
