@@ -1,4 +1,4 @@
-import{P as e,c as i,_ as o}from"./App.vue_vue_type_script_setup_true_lang.a0be23cc.js";const t=""+new URL("committee-list.847f97b7.jpeg",import.meta.url).href;e.content.notification={title:"Programming Course",content:`
+import{P as e,c as i,_ as o}from"./App.vue_vue_type_script_setup_true_lang.e88c1e0c.js";const t=""+new URL("committee-list.847f97b7.jpeg",import.meta.url).href;e.content.notification={title:"Programming Course",content:`
 In the following year, we will hold a programming course, with C++, a quick and versatile programming language,
 as our main language. You may even get a chance to learn web or game development! Fill in the google form now
 <a href="https://forms.gle/46ueCuvZb9rSSnAd6" target="_blank">HERE</a> to join. For any more information you may
