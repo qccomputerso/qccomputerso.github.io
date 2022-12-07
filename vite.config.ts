@@ -30,6 +30,7 @@ export default defineConfig({
 				events: resolve(__dirname, "events/index.html"),
 				contacts: resolve(__dirname, "contacts/index.html"),
 				"o-day": resolve(__dirname, "o-day/index.html"),
+				publication: resolve(__dirname, "publication/index.html"),
 			}
 		}
 	}

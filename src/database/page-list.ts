@@ -16,6 +16,10 @@ export const Pages = [{
 	name: "Contact Us"
 },
 {
+	url: "/publication/",
+	name: "True or Not True"
+},
+{
 	url: "/o-day/",
 	name: "O-Day Materials"
 }] as const;
