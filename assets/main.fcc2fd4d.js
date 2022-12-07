@@ -1,14 +1,11 @@
-import{P as e,c as i,_ as t}from"./App.vue_vue_type_script_setup_true_lang.a0be23cc.js";const o=""+new URL("committee-list.847f97b7.jpeg",import.meta.url).href;e.content.cards=[{title:"The Orientation Day is over...",content:`
-... But you can still retrieve the materials! Simply click on "O-Day materials", or the button
-on the bottom of this card to get them. If you did not come to the O-Day, you can use these materials as
-references.
-<br>
-<br>
-<a href="/o-day/">
-	<button>
-		Take me there >>
-	</button>
-</a>`},{headerImage:{href:o,width:400},title:"Welcome to our homepage!",content:`
+import{P as e,c as i,_ as o}from"./App.vue_vue_type_script_setup_true_lang.a0be23cc.js";const t=""+new URL("committee-list.847f97b7.jpeg",import.meta.url).href;e.content.notification={title:"Programming Course",content:`
+In the following year, we will hold a programming course, with C++, a quick and versatile programming language,
+as our main language. You may even get a chance to learn web or game development! Fill in the google form now
+<a href="https://forms.gle/46ueCuvZb9rSSnAd6" target="_blank">HERE</a> to join. For any more information you may
+contact us- Details are at the bottom of the page.
+<br><br>
+Also, we have just published our FIRST EDITION of the publication "True or not True"!
+<a href="https://www.instagram.com/qc_socs/" target="_blank">Check our instagram page for more.</a>`};e.content.cards=[{headerImage:{href:t,width:400},title:"Welcome to our homepage!",content:`
 Our goal as the Society of Computer Studies is to provide insight about programming and Computer Science
 to our schoolmates, and to help them gain a better understanding of the topics, as well as an understanding
 of the impact of rapid development of IT on our society.
@@ -62,4 +59,4 @@ skills!`},{title:"Officials List",content:`
 	<button>
 		Contact Us >>
 	</button>
-</a>`}];i(t).mount("#app");
+</a>`}];i(o).mount("#app");
