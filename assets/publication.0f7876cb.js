@@ -1,4 +1,4 @@
-import{P as u,c as e,_ as t}from"./App.vue_vue_type_script_setup_true_lang.e88c1e0c.js";u.content.cards=[];const F=""+new URL("dec2022-1st.a6d5a917.png",import.meta.url).href;u.content.cards.push({title:"December 2022- Famous Computer Scientists",content:`
+import{P as u,c as e,_ as t}from"./App.vue_vue_type_script_setup_true_lang.192361da.js";u.content.cards=[];const F=""+new URL("dec2022-1st.a6d5a917.png",import.meta.url).href;u.content.cards.push({title:"December 2022- Famous Computer Scientists",content:`
 <img style="float: right; clear: right; margin: 10px;" src="${F}" width="250px">
 \u8A08\u7B97\u6A5F\u79D1\u5B78\u6709\u4ECA\u65E5\u7684\u767C\u5C55\u548C\u6210\u5C31\uFF0C\u5C11\u4E0D\u4E86\u4E00\u8846\u8A08\u7B97\u6A5F\u79D1\u5B78\u5BB6\u5011\u7684\u8CA2\u737B\uFF0C\u4EE5\u4E0B\u6211\u5C31\u4ECB\u7D39\u5E7E\u4F4D\u7D66\u5927\u5BB6\u8A8D\u8B58\u8A8D\u8B58\u5427\uFF01
 <br><br>
