@@ -31,6 +31,7 @@ export default defineConfig({
 				contacts: resolve(__dirname, "contacts/index.html"),
 				"o-day": resolve(__dirname, "o-day/index.html"),
 				publication: resolve(__dirname, "publication/index.html"),
+				"programming-course": resolve(__dirname, "programming-course/index.html"),
 			}
 		}
 	}

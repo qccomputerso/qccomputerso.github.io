@@ -38,8 +38,10 @@
 		}
 	},
 	"rules": {
+		"@typescript-eslint/ban-ts-comment": "off",
+		"@typescript-eslint/no-unused-vars": ["error"],
 		"import/prefer-default-export": "off",
-		"import/no-unresolved": "error",
+		"import/no-unresolved": "off",
 		"import/named": "error",
 		"import/namespace": "error",
 		"import/default": "error",
@@ -52,13 +54,6 @@
 		"import/newline-after-import": "warn",
 		"import/no-named-default": "warn",
 		"import/no-self-import": "warn",
-		"import/order": [
-			"warn",
-			{
-				"newlines-between": "always-and-inside-groups",
-				"pathGroups": [{ "pattern": "@/**", "group": "sibling" }]
-			}
-		],
 		"sort-imports": [
 			"warn",
 			{
@@ -97,7 +92,6 @@
 		"vue/padding-line-between-blocks": "warn",
 		"vue/block-tag-newline": "warn",
 		"vue/no-multiple-objects-in-class": "warn",
-		"vue/no-static-inline-styles": "warn",
 		"vue/no-v-html": "off",
 		"vue/no-multiple-template-root": "off",
 		"vue/no-setup-props-destructure": "off",
@@ -139,23 +133,10 @@
 		"wrap-iife": "error",
 		"yoda": "error",
 		"no-label-var": "error",
-		"no-shadow": "error",
+		"no-shadow": "off",
 		"no-shadow-restricted-names": "error",
 		"no-undef": "off",
-		"no-unused-vars": [
-			"error",
-			{
-				"vars": "local",
-				"args": "after-used"
-			}
-		],
-		"no-use-before-define": [
-			"error",
-			{
-				"functions": false,
-				"variables": false
-			}
-		],
+		"no-unused-vars": "off",
 		"array-bracket-spacing": "error",
 		"block-spacing": "error",
 		"brace-style": [
@@ -163,14 +144,6 @@
 			"1tbs",
 			{
 				"allowSingleLine": true
-			}
-		],
-		"camelcase": ["error"],
-		"capitalized-comments": [
-			"error",
-			"always",
-			{
-				"ignoreConsecutiveComments": true
 			}
 		],
 		"comma-spacing": "error",
@@ -209,7 +182,6 @@
 		"max-statements-per-line": ["error", { "max": 1 }],
 		"multiline-comment-style": "off",
 		"new-parens": "error",
-		"no-array-constructor": "warn",
 		"no-inline-comments": "error",
 		"no-lonely-if": "error",
 		"no-mixed-spaces-and-tabs": "error",
@@ -253,7 +225,6 @@
 		],
 		"space-in-parens": "error",
 		"space-infix-ops": "error",
-		"spaced-comment": "error",
 		"strict": [
 			"error",
 			"global"

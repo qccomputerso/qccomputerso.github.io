@@ -22,4 +22,8 @@ export const Pages = [{
 {
 	url: "/o-day/",
 	name: "O-Day Materials"
+},
+{
+	url: "/programming-course/",
+	name: "Programming Course"
 }] as const;
