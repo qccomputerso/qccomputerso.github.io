@@ -1,11 +1,11 @@
-import { Page } from "..";
+import { PublicationData } from ".";
 
 import FamousComputerScientistImage from "@/assets/publication/dec2022-1st.png";
 
-Page.content.cards.push({
+PublicationData.push({
 	title: `December 2022- Famous Computer Scientists`,
-	content: `
-<img style="float: right; clear: right; margin: 10px;" src="${FamousComputerScientistImage}" width="250px">
+	imageSrc: FamousComputerScientistImage,
+	chinese: `
 計算機科學有今日的發展和成就，少不了一衆計算機科學家們的貢獻，以下我就介紹幾位給大家認識認識吧！
 <br><br>
 
@@ -37,8 +37,8 @@ Python 是當下最常用的編程語言之一，Dropbox，Battlefield 2等著�
 截至2022年1月14日，Python已然發展至3.11.0版本。
 <br>
 Python語言優點在於言簡意賅，比起其他語言，執行相同的指令時能省下不少代碼，且較容易明白。不過，它執行指令的速度較慢，因此不常用於大型專案。
-<br><br><hr><br>
-
+`.replaceAll("\n", ""),
+	english: `
 Even with the amazing developments of modern computer science, we should not forget the giants of the past 
 who paved the way for such a feat. Let's talk about some of them!
 <br><br>
