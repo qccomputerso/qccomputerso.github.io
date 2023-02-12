@@ -1,5 +1,4 @@
-import{P as u,c as e,_ as t}from"./App.vue_vue_type_script_setup_true_lang.192361da.js";u.content.cards=[];const F=""+new URL("dec2022-1st.a6d5a917.png",import.meta.url).href;u.content.cards.push({title:"December 2022- Famous Computer Scientists",content:`
-<img style="float: right; clear: right; margin: 10px;" src="${F}" width="250px">
+import{d as r,k as B,a as F,w as a,_ as C,o as n,f as E,r as l,C as c,g as h,t as A,e as t,m as i,u as d,F as b,j as D,P as m,c as g}from"./App.vue_vue_type_script_setup_true_lang.9787acb1.js";const p=["src"],f=["innerHTML"],y=r({__name:"Publication",setup(_){const u=B(!1);return(P,o)=>(n(),F(C,null,{default:a(()=>[(n(!0),E(b,null,l(d(s),e=>(n(),F(c,{key:e.title},{header:a(()=>[h(A(e.title)+" ",1),t("div",{class:"c-switch-language",onClick:o[0]||(o[0]=x=>{u.value=!u.value})},[t("span",{class:i({"c-switch-language__button":!0,"c-switch-language__button--inactive":u.value})}," Eng ",2),t("span",{class:i({"c-switch-language__button":!0,"c-switch-language__button--inactive":!u.value})}," \u4E2D ",2)])]),default:a(()=>[t("img",{class:"c-publication-image",src:e.imageSrc,width:"250"},null,8,p),t("span",{innerHTML:u.value?e.chinese:e.english},null,8,f)]),_:2},1024))),128))]),_:1}))}});const v=D(y,[["__scopeId","data-v-fa840b73"]]);m.content.cards=[];const s=[],w=""+new URL("dec2022-1st.a6d5a917.png",import.meta.url).href;s.push({title:"December 2022- Famous Computer Scientists",imageSrc:w,chinese:`
 \u8A08\u7B97\u6A5F\u79D1\u5B78\u6709\u4ECA\u65E5\u7684\u767C\u5C55\u548C\u6210\u5C31\uFF0C\u5C11\u4E0D\u4E86\u4E00\u8846\u8A08\u7B97\u6A5F\u79D1\u5B78\u5BB6\u5011\u7684\u8CA2\u737B\uFF0C\u4EE5\u4E0B\u6211\u5C31\u4ECB\u7D39\u5E7E\u4F4D\u7D66\u5927\u5BB6\u8A8D\u8B58\u8A8D\u8B58\u5427\uFF01
 <br><br>
 
@@ -31,8 +30,8 @@ Python \u662F\u7576\u4E0B\u6700\u5E38\u7528\u7684\u7DE8\u7A0B\u8A9E\u8A00\u4E4B\
 \u622A\u81F32022\u5E741\u670814\u65E5\uFF0CPython\u5DF2\u7136\u767C\u5C55\u81F33.11.0\u7248\u672C\u3002
 <br>
 Python\u8A9E\u8A00\u512A\u9EDE\u5728\u65BC\u8A00\u7C21\u610F\u8CC5\uFF0C\u6BD4\u8D77\u5176\u4ED6\u8A9E\u8A00\uFF0C\u57F7\u884C\u76F8\u540C\u7684\u6307\u4EE4\u6642\u80FD\u7701\u4E0B\u4E0D\u5C11\u4EE3\u78BC\uFF0C\u4E14\u8F03\u5BB9\u6613\u660E\u767D\u3002\u4E0D\u904E\uFF0C\u5B83\u57F7\u884C\u6307\u4EE4\u7684\u901F\u5EA6\u8F03\u6162\uFF0C\u56E0\u6B64\u4E0D\u5E38\u7528\u65BC\u5927\u578B\u5C08\u6848\u3002
-<br><br><hr><br>
-
+`.replaceAll(`
+`,""),english:`
 Even with the amazing developments of modern computer science, we should not forget the giants of the past 
 who paved the way for such a feat. Let's talk about some of them!
 <br><br>
@@ -79,4 +78,4 @@ Python is intuitive and accomplishes a lot with few words. It is very declarativ
 libraries helping it. However, since Python is fairly slow during execution, it may not be suitable 
 for handling the backend of computationally heavy tasks. 
 `.replaceAll(`
-`,"")});e(t).mount("#app");
+`,"")});g(v).mount("#app");
