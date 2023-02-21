@@ -15,4 +15,11 @@ feel free to use it.
 This slide covers basic I/O, variables, and program flow.
 <br>
 <a href="lesson1.pptx">Download</a>`
+},
+{
+	title: `Lesson 2`,
+	content: `
+This slide covers functions, arrays (Essentially lists), and vectors (Expandable arrays).
+<br>
+<a href="lesson2.pptx">Download</a>`
 }];
