@@ -9,7 +9,7 @@ dark magic? Don't panic! One of our beloved committee members has prepared some 
 way comprehensive: There is still a lot of information we left out to be gained! Use this presentation as a jumping
 board for more in-depth searches, not as an authority of information itself.
 <br><br>
-<a href="misc-assets/presentation_ai.pptx" download>DOWNLOAD HERE</a>`
+<a href="presentation_ai.pptx" download>DOWNLOAD HERE</a>`
 },
 {
 	title: "Program Demonstration",
