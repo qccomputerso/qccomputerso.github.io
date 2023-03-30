@@ -58,7 +58,7 @@ const isChinese = $ref(false);
 	position: absolute;
 	top: 20px;
 	right: 20px;
-	font-size: 18px;
+	font-size: 1.3rem;
 	font-weight: normal;
 	cursor: pointer;
 	user-select: none;
@@ -70,5 +70,9 @@ const isChinese = $ref(false);
 
 .c-switch-language__button--inactive {
 	opacity: 0.5;
+}
+
+:deep(.c-paragraph-card__title) {
+	padding-right: 6rem;
 }
 </style>

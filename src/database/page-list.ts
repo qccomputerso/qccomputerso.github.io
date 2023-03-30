@@ -17,13 +17,13 @@ export const Pages = [{
 },
 {
 	url: "/publication/",
-	name: "True or Not True"
+	name: "True || !True"
 },
 {
 	url: "/o-day/",
-	name: "O-Day Materials"
+	name: "O-Day"
 },
 {
 	url: "/programming-course/",
-	name: "Programming Course"
+	name: "Courses"
 }] as const;

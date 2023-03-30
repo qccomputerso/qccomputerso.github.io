@@ -23,10 +23,10 @@ const titleSize = $computed(() => `${Math.max(
 ) + minTitleSize}em`);
 
 addEventListener("scroll", () => scroll = getScroll());
-maxTitleSize = innerWidth < 640 ? 1.9 : 2.4;
+maxTitleSize = innerWidth < 680 ? 1.9 : 2.4;
 maxLogoSize = Math.max(Math.min(innerWidth / 8, 80), 40);
 addEventListener("resize", () => {
-	maxTitleSize = innerWidth < 640 ? 1.9 : 2.4;
+	maxTitleSize = innerWidth < 680 ? 1.9 : 2.4;
 	maxLogoSize = Math.max(Math.min(innerWidth / 8, 80), 40);
 });
 </script>
@@ -63,17 +63,24 @@ addEventListener("resize", () => {
 		<div
 			class="c-topbar__title"
 			:style="{
-				fontSize: maxTitleSize
+				fontSize: titleSize
 			}"
 		>
-			QC SCIENCE ASSOCIATION
+			QC
 		</div>
 		<img
 			class="c-topbar__logo-image"
-			:width="maxLogoSize"
-			:height="maxLogoSize"
+			:width="logoSize"
+			:height="logoSize"
 		>
-		<div class="c-topbar__tab-buttons" />
+		<div class="c-topbar__tab-buttons">
+			<a
+				v-for="page in Pages"
+				:key="page.name"
+				:href="page.url"
+				class="c-topbar__tab-button"
+			>{{ page.name }}</a>
+		</div>
 	</div>
 </template>
 
@@ -131,7 +138,6 @@ addEventListener("resize", () => {
 .c-topbar__tab-buttons {
 	position: relative;
 	width: 100%;
-	height: 50px;
 	margin-top: 10px;
 	text-align: left;
 }
@@ -153,7 +159,7 @@ addEventListener("resize", () => {
 	align-items: center;
 	justify-content: center;
 	min-width: 100px;
-	height: 100%;
+	height: 50px;
 	padding: 0 10px;
 	border-right: 1px solid var(--colour-text);
 	text-decoration: none;
@@ -165,8 +171,8 @@ addEventListener("resize", () => {
 	color: var(--colour-background);
 }
 
-@media screen and (max-width: 640px) {
-	.c-topbar__tab-buttons {
+@media screen and (max-width: 680px) {
+	.c-topbar__tab-button {
 		height: 40px;
 	}
 
