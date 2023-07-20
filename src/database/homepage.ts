@@ -2,16 +2,14 @@ import CommitteeList from "@/assets/committee-list.jpeg";
 
 import { Page } from ".";
 
+
 Page.content.notification = {
-	title: "Programming Course",
+	title: "New school year",
 	content: `
-In the following year, we will hold a programming course, with C++, a quick and versatile programming language,
-as our main language. You may even get a chance to learn web or game development! Fill in the google form now
-<a href="https://forms.gle/46ueCuvZb9rSSnAd6" target="_blank">HERE</a> to join. For any more information you may
-contact us- Details are at the bottom of the page.
-<br><br>
-Also, we have just published our FIRST EDITION of the publication "True or not True"!
-<a href="https://www.instagram.com/qc_socs/" target="_blank">Check our instagram page for more.</a>`
+We are continuously improving and aiming to make the school a better place for computer-lovers.
+<br>
+Stay tuned, and remember to <a href="https://www.instagram.com/qc_socs/" target="_blank">
+follow us on Instagram</a>!`
 };
 
 Page.content.cards = [{
@@ -27,7 +25,7 @@ of the impact of rapid development of IT on our society.
 <br>
 <br>
 We conduct
-<a href="https://qcsocs.com/program-course/" target="_blank">programming courses</a>,
+<a href="http://qcsocs.com/programming-course/" target="_blank">programming courses</a>,
 as well as training for the
 <a href="https://hkoi.org/en/" target="_blank">HKOI</a>
 (Hong Kong Olympiad in Informatics) to achieve our aims.
