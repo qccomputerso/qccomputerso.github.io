@@ -3,6 +3,8 @@ import LogoPath from "@/assets/logo.png";
 
 import { Pages } from "@/database/page-list";
 
+import { computed, ref } from "vue";
+
 const getScroll = (function() {
 	if (window.pageYOffset === undefined) {
 		const scrollElement = document.documentElement || document.body;
@@ -12,22 +14,26 @@ const getScroll = (function() {
 	return () => window.pageYOffset;
 }());
 
-let scroll = $ref(0);
-let maxLogoSize = $ref(80);
-let maxTitleSize = $ref(2.4);
+const scroll = ref(0);
+const maxLogoSize = ref(60);
+const minLogoSize = 40;
+const maxTitleSize = ref(2.4);
 const minTitleSize = 1.5;
-const logoSize = $computed(() => Math.max((1 - scroll / 150) * maxLogoSize, 0));
-const titleSize = $computed(() => `${Math.max(
-	(maxTitleSize - minTitleSize) * (1 - scroll / 250),
+const logoSize = computed(() => Math.max((1 - scroll.value / 250) * maxLogoSize.value, minLogoSize));
+const titleSize = computed(() => `${Math.max(
+	(maxTitleSize.value - minTitleSize) * (1 - scroll.value / 250),
 	0
 ) + minTitleSize}em`);
 
-addEventListener("scroll", () => scroll = getScroll());
-maxTitleSize = innerWidth < 680 ? 1.9 : 2.4;
-maxLogoSize = Math.max(Math.min(innerWidth / 8, 80), 40);
+const showMobileTabList = ref(false);
+
+addEventListener("scroll", () => scroll.value = getScroll());
+maxTitleSize.value = Math.max(Math.min(innerWidth / 300, 2.4), 1.5);
+maxLogoSize.value = Math.max(Math.min(innerWidth / 12, 60), 40);
 addEventListener("resize", () => {
-	maxTitleSize = innerWidth < 680 ? 1.9 : 2.4;
-	maxLogoSize = Math.max(Math.min(innerWidth / 8, 80), 40);
+	maxTitleSize.value = Math.max(Math.min(innerWidth / 300, 2.4), 1.5);
+	maxLogoSize.value = Math.max(Math.min(innerWidth / 12, 60), 40);
+	if (innerWidth > 680) showMobileTabList.value = false;
 });
 </script>
 
@@ -39,17 +45,22 @@ addEventListener("resize", () => {
 				fontSize: titleSize
 			}"
 		>
+			<img
+				class="c-topbar__logo-image"
+				:src="LogoPath"
+				:width="logoSize"
+				:height="logoSize"
+				alt="SOCS logo"
+			>
 			QC COMPUTER SOCIETY
 		</div>
-		<img
-			class="c-topbar__logo-image"
-			:src="LogoPath"
-			:width="logoSize"
-			:height="logoSize"
-			:style="{
-				opacity: logoSize / maxLogoSize * 1.4
-			}"
-		>
+		<button
+			class="fas fa-bars c-topbar__tab-list"
+			aria-label="Open list of tabs"
+			label="Open list of tabs"
+			tabindex="1"
+			@click="showMobileTabList = !showMobileTabList"
+		/>
 		<div class="c-topbar__tab-buttons">
 			<a
 				v-for="page in Pages"
@@ -59,25 +70,49 @@ addEventListener("resize", () => {
 			>{{ page.name }}</a>
 		</div>
 	</div>
-	<div class="c-topbar c-topbar--fake">
-		<div
-			class="c-topbar__title"
-			:style="{
-				fontSize: titleSize
-			}"
-		>
-			QC
+	<div
+		:class="{
+			'c-mobile-tab-list': true,
+			'c-mobile-tab-list--show': showMobileTabList
+		}"
+	>
+		<div class="c-topbar c-topbar--fake">
+			<div class="c-topbar__title">
+				<img
+					class="c-topbar__logo-image"
+					:width="logoSize"
+					:height="logoSize"
+				>
+			</div>
+			<div class="c-topbar__tab-buttons">
+				<a
+					v-for="page in Pages"
+					:key="page.name"
+					class="c-topbar__tab-button"
+				>{{ page.name }}</a>
+			</div>
 		</div>
-		<img
-			class="c-topbar__logo-image"
-			:width="logoSize"
-			:height="logoSize"
-		>
-		<div class="c-topbar__tab-buttons">
+		<div class="c-mobile-tab-buttons">
 			<a
 				v-for="page in Pages"
 				:key="page.name"
 				:href="page.url"
+				class="c-mobile-tab-button"
+			>{{ page.name }}</a>
+		</div>
+	</div>
+	<div class="c-topbar c-topbar--fake">
+		<div class="c-topbar__title">
+			<img
+				class="c-topbar__logo-image"
+				:width="logoSize"
+				:height="logoSize"
+			>
+		</div>
+		<div class="c-topbar__tab-buttons">
+			<a
+				v-for="page in Pages"
+				:key="page.name"
 				class="c-topbar__tab-button"
 			>{{ page.name }}</a>
 		</div>
@@ -93,7 +128,7 @@ addEventListener("resize", () => {
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 1;
+	z-index: 2;
 	width: 100%;
 	border-bottom: 5px solid var(--colour-accent);
 	padding-top: 10px;
@@ -129,10 +164,28 @@ addEventListener("resize", () => {
 	text-shadow: 0 0 var(--colour-accent);
 }
 
+.c-topbar__title * {
+	vertical-align: middle;
+}
+
 .c-topbar__logo-image {
 	border-radius: 10%;
 	border: var(--colour-text) 2px solid;
 	filter: drop-shadow(var(--colour-accent) 0 0 10px) drop-shadow(var(--colour-text) 0 0 5px);
+}
+
+.c-topbar__tab-list {
+	display: none;
+	background-color: transparent;
+	border: none;
+	outline: none;
+
+	font-size: 2.4em;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
 }
 
 .c-topbar__tab-buttons {
@@ -171,13 +224,82 @@ addEventListener("resize", () => {
 	color: var(--colour-background);
 }
 
+.c-mobile-tab-list {
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background-color: #0008;
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+
+	visibility: hidden;
+	transform: translateX(100%);
+	opacity: 0;
+	transition: transform 0.3s, visibility 0.3s, opacity 0.2s;
+}
+
+.c-mobile-tab-list--show {
+	visibility: visible;
+	transform: none;
+	opacity: 1;
+}
+
+.c-mobile-tab-buttons {
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	width: 200px;
+	border-left: 3px solid var(--colour-accent);
+}
+
+.c-mobile-tab-buttons::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-color: var(--colour-accent);
+	opacity: 0.8;
+	filter: brightness(0.3);
+}
+
+.c-mobile-tab-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	height: 50px;
+	padding: 0 10px;
+	border-bottom: 1px solid var(--colour-text);
+	text-decoration: none;
+	transition: color 0.1s, background-color 0.1s, width 0.1s;
+}
+
+.c-mobile-tab-button:hover {
+	background-color: var(--colour-text);
+	color: var(--colour-background);
+	width: 100%;
+}
+
 @media screen and (max-width: 680px) {
-	.c-topbar__tab-button {
-		height: 40px;
+	.c-topbar__title {
+		width: 100%;
+		text-align: left;
+		padding-left: 10px;
 	}
 
-	.c-topbar__tab-button {
-		min-width: 80px;
+	.c-topbar__tab-list {
+		display: block;
+	}
+
+	.c-topbar__tab-buttons {
+		height: 0;
+		visibility: hidden;
 	}
 }
 </style>

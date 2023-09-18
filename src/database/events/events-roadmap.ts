@@ -4,31 +4,30 @@ export interface RoadmapDBEntry {
 	title: string
 }
 
+function date(year: number, month: number, day: number) {
+	return new Date(year, month - 1, day);
+}
+
 export const Roadmap: RoadmapDBEntry[] = [{
-	date1: new Date(2022, 8, 1),
+	date1: date(2023, 9, 1),
 	title: "Start of School Year"
 },
 {
-	date1: new Date(2022, 9, 11),
+	date1: date(2023, 9, 28),
+	date2: date(2023, 11, 10),
+	title: "HKOI course (Heat)"
+},
+{
+	date1: date(2023, 10, 9),
 	title: "Orientation Day"
 },
 {
-	date1: new Date(2022, 9, 17),
-	date2: new Date(2022, 9, 25),
-	title: "Subcommittee Recruitment"
+	date1: date(2024, 2, 1),
+	date2: date(2024, 5, 1),
+	title: "Unity Game Development Course"
 },
 {
-	date1: new Date(2022, 9, 26),
-	date2: new Date(2022, 9, 31),
-	title: "Subcommittee Interview"
-},
-{
-	date1: new Date(2022, 11, 19),
-	date2: new Date(2023, 5, 30),
-	title: "Programming Course"
-},
-{
-	date1: new Date(2023, 8, 1),
-	date2: new Date(3023, 8, 1),
+	date1: date(2024, 9, 1),
+	date2: date(3024, 9, 1),
 	title: "???"
 }];

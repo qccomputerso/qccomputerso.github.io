@@ -38,8 +38,16 @@
 		}
 	},
 	"rules": {
+		/* Anything to do with `any` has way too many false positives as a side effect of how
+		incremental games are almost inherently cyclic */
+		"@typescript-eslint/no-unsafe-assignment": "off",
+		"@typescript-eslint/no-unsafe-return": "off",
+
+		"@typescript-eslint/no-explicit-any": "off",
 		"@typescript-eslint/ban-ts-comment": "off",
 		"@typescript-eslint/no-unused-vars": ["error"],
+
+		"@typescript-eslint/func-call-spacing": "error",
 		"import/prefer-default-export": "off",
 		"import/no-unresolved": "off",
 		"import/named": "error",
@@ -125,7 +133,6 @@
 		"no-useless-catch": "error",
 		"no-useless-concat": "error",
 		"no-useless-return": "error",
-		"no-void": "error",
 		"no-with": "error",
 		"radix": "warn",
 		"require-await": "error",
@@ -150,7 +157,7 @@
 		"comma-style": "error",
 		"computed-property-spacing": "error",
 		"consistent-this": "error",
-		"func-call-spacing": "error",
+		"func-call-spacing": "off",
 		"id-blacklist": [
 			"error",
 			"ret",

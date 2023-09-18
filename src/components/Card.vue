@@ -21,6 +21,7 @@ const hasSlot = (name: string) => Boolean(slots[name]);
 				<img
 					:src="card.headerImage.href"
 					:width="card.headerImage.width"
+					:alt="card.headerImage.alt"
 				>
 				<a
 					v-if="card.headerImage.source"

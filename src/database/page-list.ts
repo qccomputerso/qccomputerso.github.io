@@ -17,7 +17,7 @@ export const Pages = [{
 },
 {
 	url: "/publication/",
-	name: "True || !True"
+	name: "Publication"
 },
 {
 	url: "/o-day/",

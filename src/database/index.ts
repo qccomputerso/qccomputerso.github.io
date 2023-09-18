@@ -8,6 +8,7 @@ export interface CardDBEntry {
 			description: string
 			url: string
 		}
+		alt: string
 	}
 }
 
