@@ -1,8 +1,8 @@
-import{P as i,c as e,_ as t}from"./App.vue_vue_type_script_setup_true_lang.4ee3d21a.js";const o=""+new URL("committee-list.847f97b7.jpeg",import.meta.url).href;i.content.notification={title:"New school year",content:`
+import{P as i,c as o,_ as e}from"./App.vue_vue_type_script_setup_true_lang.062a273b.js";i.content.notification={title:"New school year",content:`
 We are continuously improving and aiming to make the school a better place for computer-lovers.
 <br>
 Stay tuned, and remember to <a href="https://www.instagram.com/qc_socs/" target="_blank">
-follow us on Instagram</a>!`};i.content.cards=[{headerImage:{href:o,width:400},title:"Welcome to our homepage!",content:`
+follow us on Instagram</a>!`};i.content.cards=[{title:"Welcome to our homepage!",content:`
 Our goal as the Society of Computer Studies is to provide insight about programming and Computer Science
 to our schoolmates, and to help them gain a better understanding of the topics, as well as an understanding
 of the impact of rapid development of IT on our society.
@@ -26,34 +26,34 @@ already experienced in programming, we may hold a mini competition which allows 
 skills!`},{title:"Officials List",content:`
 <b>Chairman:</b>
 <div class="o-info-bicolumn-display">
-	<div>Alex Wu</div>
-	<div>4D (30)</div>
+	<div>Fu Sze Ho</div>
+	<div>5A (10)</div>
 </div>
 <br>
 <b>Vice Chairman:</b>
 <div class="o-info-bicolumn-display">
-	<div>Edison Fu</div>
-	<div>4A (10)</div>
-	<div>Kyle Chen</div>
-	<div>5A (04)</div>
+	<div>Yeung Wai Kwan</div>
+	<div>5A (35)</div>
+	<div>Wu Zi Qi</div>
+	<div>5D (24)</div>
 </div>
 <br>
 <b>Committees:</b>
 <div class="o-info-bicolumn-display">
+	<div>Yip Long Yin</div>
+	<div>4A (21)</div>
+	<div>Li Hin Lam</div>
+	<div>4B (12)</div>
 	<div>Chan Ching Kiu</div>
-	<div>3A (02)</div>
-	<div>Mike Lam</div>
-	<div>4A (17)</div>
-	<div>Anson Yeung</div>
-	<div>4A (35)</div>
-	<div>Arthur Pang</div>
-	<div>5A (19)</div>
-	<div>Kevin Li</div>
-	<div>5B (19)</div>
+	<div>4D (02)</div>
+	<div>Isaac Li</div>
+	<div>4D (22)</div>
+	<div>Lam Hung Yin</div>
+	<div>5A (17)</div>
 </div>
 <br>
 <a href="/contacts/">
 	<button>
 		Contact Us >>
 	</button>
-</a>`}];e(t).mount("#app");
+</a>`}];o(e).mount("#app");
