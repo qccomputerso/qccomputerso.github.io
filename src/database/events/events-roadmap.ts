@@ -18,7 +18,7 @@ export const Roadmap: RoadmapDBEntry[] = [{
 	title: "HKOI course (Heat)"
 },
 {
-	date1: date(2023, 10, 9),
+	date1: date(2023, 10, 16),
 	title: "Orientation Day"
 },
 {
