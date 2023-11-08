@@ -1,4 +1,4 @@
-import{P as e,c as t,_ as o}from"./App.vue_vue_type_script_setup_true_lang.56909de4.js";e.content.cards=[{title:"Machine Learning Talk",content:`
+import{P as e,c as t,_ as o}from"./App.vue_vue_type_script_setup_true_lang.675c41c8.js";e.content.cards=[{title:"Machine Learning Talk",content:`
 Have you ever tried searching for how an AI works, but were dazzled by so many mathematical symbols and seemingly
 dark magic? Don't panic! One of our beloved committee members has prepared some powerpoint slides demonstrating a
 (grossly simplified) explanation of the backbone of Artificial Intelligence. Do note however that it is not in any
