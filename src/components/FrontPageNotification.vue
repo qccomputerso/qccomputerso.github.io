@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import LogoImg from "@/assets/logo.png";
-
 import { NotificationDBEntry } from "@/database";
 
 const { notification } = defineProps<{
@@ -10,10 +8,6 @@ const { notification } = defineProps<{
 
 <template>
 	<div class="c-notification">
-		<img
-			class="c-notification__background"
-			:src="LogoImg"
-		>
 		<h2
 			v-if="notification.title"
 			class="c-notification__title"
@@ -38,20 +32,7 @@ const { notification } = defineProps<{
 	margin: 20px;
 	padding: 30px;
 	overflow: hidden;
-}
-
-.c-notification__background {
-	position: absolute;
-	inset: 50%;
-	height: 80%;
-	border-radius: 5%;
-	border: 3px solid var(--colour-accent);
-	box-shadow: 0 0 7px var(--colour-accent);
-	background-size: auto 80%;
-	background-repeat: no-repeat;
-	background-position: center center;
-	animation: a-notif-bg-spin 2s ease-in-out 1s infinite, a-notif-bg-popout 1s ease-out;
-	z-index: -1;
+	animation: a-notif-spin 2s ease-in-out 1s infinite, a-notif-popout 1s ease-out;
 }
 
 .c-notification::after {
@@ -66,18 +47,15 @@ const { notification } = defineProps<{
 	z-index: -1;
 }
 
-@keyframes a-notif-bg-spin {
-	0% { transform: translate(-50%, -50%) rotate(0); }
-	23% { transform: translate(-50%, -50%) rotate(20deg); }
-	46% { transform: translate(-50%, -50%) rotate(-15deg); }
-	69% { transform: translate(-50%, -50%) rotate(10deg); }
-	90% { transform: translate(-50%, -50%) rotate(0deg); }
-	100% { transform: translate(-50%, -50%) rotate(0deg); }
+@keyframes a-notif-spin {
+	0% { box-shadow: 0 0 7px 1px var(--colour-accent); }
+	50% { box-shadow: 0 0 20px 3px var(--colour-accent); }
+	100% { box-shadow: 0 0 7px 1px var(--colour-accent); }
 }
 
-@keyframes a-notif-bg-popout {
-	0% { transform: translate(-50%, -50%) scale(0.3); opacity: 0.1; }
-	100% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+@keyframes a-notif-popout {
+	0% { transform: scale(0.3); opacity: 0.1; }
+	100% { transform: scale(1); opacity: 1; }
 }
 
 .c-notification__title {
