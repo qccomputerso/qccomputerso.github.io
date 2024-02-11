@@ -14,16 +14,4 @@ export const Pages = [{
 {
 	url: "/contacts/",
 	name: "Contact Us"
-},
-{
-	url: "/publication/",
-	name: "Publication"
-},
-{
-	url: "/o-day/",
-	name: "O-Day"
-},
-{
-	url: "/programming-course/",
-	name: "Courses"
 }] as const;
