@@ -1,4 +1,4 @@
-import{P as i,c as o,_ as t}from"./App.vue_vue_type_script_setup_true_lang.58f51d47.js";i.content.notification={title:"Minecraft Modding Course",content:`
+import{P as i,c as o,_ as t}from"./App.vue_vue_type_script_setup_true_lang.971334e7.js";i.content.notification={title:"Minecraft Modding Course",content:`
 Plenty of people have made Minecraft Mods. Do you want to make your own? Or do you just want to get a (legally)
 free copy of Minecraft?
 <br>
