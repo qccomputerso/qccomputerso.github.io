@@ -1,14 +1,12 @@
-import{P as i,c as o,_ as t}from"./App.vue_vue_type_script_setup_true_lang.675c41c8.js";i.content.notification={title:"Webscraping Workshop",content:`
-Want to check the likes on your IG account instantly?
-Look up prices on taobao at your convenience?
-Maybe you just want to view a site which is full of bloat and unnecessary pop-ups?
+import{P as i,c as o,_ as t}from"./App.vue_vue_type_script_setup_true_lang.58f51d47.js";i.content.notification={title:"Webscraping Workshop",content:`
+Plenty of people have made Minecraft Mods. Do you want to make your own? Or do you just want to get a (legally)
+free copy of Minecraft?
 <br>
-Fear not! We will be holding a webscraping workshop, where you can solve all these problems
-at the same time by writing your very own webscraper!
+Join our Minecraft Modding Course now to get all the benefits above, and even more!
 <br>
 <br>
 <span style="font-size: 1.3em;">
-Register NOW through <b><a target="_blank" href="https://forms.gle/kZSGHvdifG7sbEAYA">Google Forms</a></b>!
+Register NOW through <a target="_blank" href="https://forms.gle/ftcoF35pnCbrrhsR9">Google Forms</a>!
 </h2>`};i.content.cards=[{title:"Welcome to our homepage!",content:`
 Our goal as the Society of Computer Studies is to provide insight about programming and Computer Science
 to our schoolmates, and to help them gain a better understanding of the topics, as well as an understanding
