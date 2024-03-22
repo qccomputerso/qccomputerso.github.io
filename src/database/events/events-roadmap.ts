@@ -32,6 +32,11 @@ export const Roadmap: RoadmapDBEntry[] = [{
 	title: "Minecraft Modding Workshop"
 },
 {
+	date1: date(2024, 3, 22),
+	date2: date(2024, 3, 23),
+	title: "Open Days"
+},
+{
 	date1: date(2024, 9, 1),
 	date2: date(3024, 9, 1),
 	title: "???"
