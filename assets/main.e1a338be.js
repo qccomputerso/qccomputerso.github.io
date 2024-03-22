@@ -1,13 +1,4 @@
-import{P as i,c as o,_ as t}from"./App.vue_vue_type_script_setup_true_lang.971334e7.js";i.content.notification={title:"Minecraft Modding Course",content:`
-Plenty of people have made Minecraft Mods. Do you want to make your own? Or do you just want to get a (legally)
-free copy of Minecraft?
-<br>
-Join our Minecraft Modding Course now to get all the benefits above, and even more!
-<br>
-<br>
-<span style="font-size: 1.3em;">
-Register NOW through <a target="_blank" href="https://forms.gle/ftcoF35pnCbrrhsR9">Google Forms</a>!
-</h2>`};i.content.cards=[{title:"Welcome to our homepage!",content:`
+import{P as i,c as t,_ as d}from"./App.vue_vue_type_script_setup_true_lang.48784448.js";i.content.cards=[{title:"Welcome to our homepage!",content:`
 Our goal as the Society of Computer Studies is to provide insight about programming and Computer Science
 to our schoolmates, and to help them gain a better understanding of the topics, as well as an understanding
 of the impact of rapid development of IT on our society.
@@ -50,4 +41,4 @@ of the impact of rapid development of IT on our society.
 	<button>
 		Contact Us >>
 	</button>
-</a>`}];o(t).mount("#app");
+</a>`}];t(d).mount("#app");
