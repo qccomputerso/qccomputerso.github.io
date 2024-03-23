@@ -152,7 +152,7 @@ import HowDeepfakesWork2 from "@/assets/publication/how_deepfakes_work_2.png";
 			</div>
 		</Card>
 		<Card>
-			<template #title>
+			<template #header>
 				Applications and Misuse of Deepfakes
 			</template>
 			Deepfake technology, powered by artificial intelligence, has revolutionised the way we interact
@@ -241,96 +241,7 @@ import HowDeepfakesWork2 from "@/assets/publication/how_deepfakes_work_2.png";
 			regulation and awareness.
 		</Card>
 		<Card>
-			<template #title>
-				Applications and Misuse of Deepfakes
-			</template>
-			Deepfake technology, powered by artificial intelligence, has revolutionised the way we interact
-			with media content. As AI and deepfake technology evolve, people are finding more and more
-			applications of deepfakes across various industries.
-			<br>
-			Deepfakes have many uses. One of which is that it can be used in entertainment. One of the
-			more famous examples is a film called Rogue One. In the movie, several characters' actors were
-			deceased and to recreate the shots, they utilised deepfake technologies to present characters on
-			screen. At that time, the technology was still very much in its infancy so the uncanny valley was
-			quite deep for that movie. However, with the advance of technology, realism has greatly increased
-			and this was part of the reason that caused the SAG-AFTRA strikes as actors were afraid they would
-			be replaced by this technology.
-			<br>
-			Another thing it can be utilised in is art and history. Multiple figures and their speeches have
-			been brought to life thanks to this technology. For instance, John F. Kennedy"s speech on the day
-			of the assassination was recreated with this technology. The speech Nixon planned on giving if the
-			moon landing failed was also recreated with deep fakes. This allows us to gain a whole new
-			perspective on different historical events more interactively.
-			<br>
-			You may have also seen the video of the Mona Lisa moving. That video was also created with a
-			deepfake. Famous painter Salvador Dal was also "brought to life" with this technology to say some
-			of his famous quotes. This technology adds a whole new dimension to appreciating art.
-			<br>
-			Marketers are also looking to jump on the bandwagon. This technology allows employees to create
-			personalised messages for customers and have celebrities' faces cast over them to create a personalised
-			message. One such example is "Lay's Messi Messages" where "Messi" would invite the viewer to see his
-			game and say their name in a few different languages. However, the ethical implications of this
-			application are still a subject of debate. Nevertheless, it remains one of the many uses of deepfake
-			technology.
-			<br>
-			Surprisingly, deepfake technology has found applications in the medical field as well. To train medical
-			robots, a large amount of data is needed. This data is hard to obtain due to privacy concerns but deepfakes
-			can provide this. One such case is when it provides realistic brain scans for other AI to train on, so the
-			AI can better recognize patterns in brain diseases and better diagnose them.
-			<br>
-			In addition to the benefits of deepfakes, we must also be aware of the malicious activities that can
-			result from this technology. Deepfake scams now appear on the news more than ever before. Fraudsters
-			can modify publicly available video and footage to cheat people out of money. In Hong Kong alone,
-			several such cases have already been reported.
-			For example, a finance employee working for a multinational company fell victim to a sophisticated
-			scam involving deepfake technology. In this elaborate scheme, the fraudsters used deepfake technology
-			to create virtual replicas of the company's chief financial officer and other staff members. The
-			unsuspecting worker was deceived into participating in a video conference call with these deepfake
-			impersonations.
-			<br>
-			The worker initially became suspicious when he received a message that claimed to be from the
-			company's Chief Financial Officer based in the UK. The message discussed the necessity of conducting
-			a confidential transaction, resembling a typical phishing email. However, the worker's doubts were
-			set aside after the video call because the individuals present in the call appeared and sounded
-			identical to his recognized colleagues. In the end, the worker was tricked into paying HKD$200 million.
-			Furthermore, between July and September of 2023, a total of eight stolen Hong Kong identity cards,
-			which had previously been reported as lost by their owners, were exploited for fraudulent purposes.
-			These stolen cards were employed to initiate 90 loan applications and 54 bank account registrations.
-			Remarkably, during these transactions, cutting-edge AI deepfake technology was utilized on at least
-			20 occasions to deceive facial recognition systems. By skillfully mimicking the appearances of the
-			individuals depicted on the stolen identity cards, the deepfake creations successfully tricked the
-			facial recognition programs, allowing the fraudsters to proceed with their illicit activities undetected.
-			Another concerning incident occurred in late January 2024, when the internet witnessed the rapid
-			dissemination of pornographic images featuring the renowned American pop star, Taylor Swift. What
-			made this case particularly alarming was the fact that these explicit images were not real
-			photographs but rather AI-generated deepfakes, highlighting the detrimental impact that artificial
-			intelligence technology can have.
-			<br>
-			The emergence of deepfake technology also presents a significant peril to the integrity of elections
-			globally. In the US, a fake version of President Joe Biden's voice had been used in automatically
-			generated robocalls to discourage Democrats from taking part in the primary election in the state
-			of New Hampshire. The voice on the call sounded remarkably like the president, and the catchphrase
-			was a familiar one.
-			<br>
-			A similar situation unfolded in Slovakia in October 2023, just days before the polls opened. A fabricated
-			audio clip purportedly showing one candidate discussing vote manipulation and raising beer prices began to
-			circulate online. Ultimately, the pro-Western party lost to a pro-Russian politician, leading to speculation
-			that the deepfake had influenced the outcome.
-			<br>
-			A particular concern is the personalised targeting of voters using AI. A possible scenario where a malicious
-			actor deploys AI technology to mimic a real person's voice and misinforms voters about their specific
-			polling locations is possible. This could be replicated across multiple languages and affect numerous
-			voters. AI-generated fakes could target local elections, particularly given the decline of local news
-			outlets. Synthetic media becomes particularly difficult for voters to navigate in these cases, as local
-			journalists may be scarce or unable to tackle misinformation effectively.
-			<br>
-			While deepfake technology presents various opportunities and benefits in entertainment, art, marketing, and
-			even the medical field, it also poses significant risks and challenges. The rise of deepfake scams, as well
-			as the potential for election interference and targeted misinformation, highlight the need for robust
-			regulation and awareness.
-		</Card>
-		<Card>
-			<template #title>
+			<template #header>
 				How to Spot Deepfakes
 			</template>
 			To spot deepfake images or videos, here are some tips. First of all, when you are in doubt about
